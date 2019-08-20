@@ -1,0 +1,10 @@
+"StatusID","Name","Description"
+-1,"(Unspecified)",
+0,"Done",
+1,"In Progress",
+2,"Queued For Processing",
+3,"Invalid Schedule Item",
+4,"Completed With Warnings",
+5,"All Spus Processed",
+6,"Is Archived",
+7,"Is In Combined Archive",

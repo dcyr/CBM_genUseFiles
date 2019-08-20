@@ -1,0 +1,16 @@
+"GenusID","GenusName","CanFI_Code"
+1,"Spruce",1
+2,"Pine",2
+3,"Fir",3
+4,"Hemlock",4
+5,"Douglas-fir",5
+6,"Larch",6
+7,"Cedar and other conifers",7
+8,"Unspecified conifirs",8
+9,"Poplar",9
+10,"Birch",10
+11,"Maple",11
+12,"Other broad-leaved species",12
+13,"Unspecified broad-leaved species",13
+14,"Missing Value",-8
+15,"Not applicable",-9

@@ -1,0 +1,15 @@
+"AdminBoundaryID","AdminBoundaryName","SoftwoodTopProportion","SoftwoodStumpProportion","HardwoodTopProportion","HardwoodStumpProportion"
+1,"Newfoundland  ",2.85,2.80,4.45,2.87
+2,"Labrador",2.85,2.80,4.45,2.87
+3,"Nova Scotia",2.13,2.80,3.47,2.87
+4,"Prince Edward Island",3.41,2.80,5.19,2.87
+5,"New Brunswick",3.41,2.80,5.19,2.87
+6,"Quebec",5.18,2.80,7.40,2.87
+7,"Ontario",2.13,5.39,3.47,5.52
+8,"Manitoba",2.85,5.39,4.45,5.52
+9,"Saskatchewan",2.13,5.39,3.47,5.52
+10,"Alberta",2.13,5.39,3.47,5.52
+11,"British Columbia",1.79,5.39,3.00,5.52
+12,"Yukon Territory",7.52,5.39,10.16,5.52
+13,"Northwest Territories",8.06,5.39,10.79,5.52
+14,"Nunavut",8.06,5.39,10.79,5.52

@@ -1,0 +1,12 @@
+"ProbabilityDistributionID","Name","Description"
+0,"Discrete","specific probability to specific years (observed data)"
+1,"LogNormal","insect (one value most likely)"
+2,"Uniform","trivial (total/width)"
+3,"Gamma","fire history"
+4,"Triangular","insect (one value most likely)"
+5,"Normal","insect (one value most likely)"
+6,"Pareto","somewhat esoteric"
+7,"Exponential",
+8,"Poisson",
+9,"Binomial",
+10,"Beta","?"

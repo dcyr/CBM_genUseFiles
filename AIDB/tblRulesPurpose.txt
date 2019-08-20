@@ -1,0 +1,4 @@
+"RulesPurposeID","Name","Description"
+1,"Loader Translator Rules",
+2,"Input Parser Rules",
+3,"CBM Writing Direct to Database",

@@ -1,0 +1,2 @@
+"SlowAGToBGTransferRate"
+6.0e-03

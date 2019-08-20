@@ -1,0 +1,10 @@
+"RecSourceRuleID","RuleVersionID","FileNamePattern","PostfixSQL","AltFileNamePattern","ColumnsPerRecord","ParentTableName","LinesPerTextFileRec","NumCRLFsBetweenRecs","MultCRLFsOneDelim","TextFieldDelimID","DBEngineID","SampleSourceDB","RecordSourceSQL","FirstIndexOfClassifierValueID"
+18,4,"ageind.out",,,25,"tblAgeIndicators",1,0,0,,,,,4
+19,4,"distinds.out",,,6,"tblDistIndicators",1,0,0,,,,,
+20,4,"fluxind.out",,,54,"tblFluxIndicators",1,0,0,,,,,4
+21,4,"nodist.fil",,,0,"tblUndisturbedArea",1,0,0,,,,,
+22,4,"poolind.out",,,43,"tblPoolIndicators",1,0,0,,,,,3
+23,4,"svl###.dat","tblSPU.SPUID",,57,"tblSVOs",5,1,0,,,,,45
+24,4,"sumflux.out",,,35,"tblFluxSummary",1,0,0,,,,,3
+25,4,"sumpool.out",,,34,"tblPoolSummary",1,0,0,,,,,3
+26,4,"kf.out",,,12,"tblKyoto",1,0,0,,,,,

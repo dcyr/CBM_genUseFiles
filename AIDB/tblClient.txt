@@ -1,0 +1,6 @@
+"ClientID","Name","Description","ServiceStatus","TotalServiceHours","IsAlwaysAvailable","CanScheduleManually","StartTime","EndTime","WorkingDirectory","MachineName"
+0,"Dummy","clientid ==0 for unassigned simulation stages",0,0,0,0,1899-12-30 00:00:00,1899-12-30 00:00:00,".\Undefined\","W#-VIC-A######"
+1,"kbelange's machine","NRN W2-VIC-A064617 kbelange",0,0,0,0,2004-1-14 00:00:00,2004-1-14 00:00:00,".\Undefined\","W2-VIC-A064617"
+2,"rghafary's machine","NRN W2-VIC-A064709 rghafary",0,0,0,0,2004-1-16 00:00:00,2004-1-16 00:00:00,".\Undefined\","W2-VIC-A064709"
+3,"rghafary's machine","NRN W2-VIC-A065004 rghafary",0,0,0,0,2004-8-4 00:00:00,2004-8-4 00:00:00,"c:\CVS\dev\Unified\Install Directory\Temp\","W2-VIC-A065004"
+4,"rghafary's machine","NRN W2-VIC-A065120 rghafary",1,0,0,0,2005-6-21 00:00:00,2005-6-21 00:00:00,"C:\Program Files\CBM\Temp\","W2-VIC-A065120"

@@ -1,0 +1,1 @@
+"ConfigID","ConfigName","isText","BasePath","DBName","AgeClasses","DistTypes","Classifiers","Inventory","Yields","Transitions","DistEvents","DistEligibilities"

@@ -1,0 +1,2 @@
+"CBMVersionID","Name","Description","Type","Version","ExecutableFileName","ExecutablePath"
+1,"CBM-CFS3 beta version","This is the executable to be used for testing in preparation for the beta training workshop.",1,1,"CBM.exe",".\Admin\Executables"

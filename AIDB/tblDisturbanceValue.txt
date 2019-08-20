@@ -1,0 +1,7 @@
+"DisturbanceValueID","Name","Description"
+1,"Annual Area Burned",
+2,"Time Between Insect Outbreaks",
+3,"Length of Insect Outbreaks",
+4,"Total Area of Insect Outbreak",
+5,"Annual Area Deforested",
+6,"Growth Curve Multiplier",

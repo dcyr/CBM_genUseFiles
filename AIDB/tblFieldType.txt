@@ -1,0 +1,7 @@
+"FieldTypeID","FieldTypeName"
+0,"Boolean"
+1,"Byte"
+2,"Integer"
+3,"Long"
+4,"Single"
+5,"Double"

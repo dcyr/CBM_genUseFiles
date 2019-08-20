@@ -1,0 +1,4 @@
+"SPUID","ProbabilityDistributionID","DisturbanceValueID","Parameter1","Parameter2","Parameter3","Parameter4"
+1,3,1,1.00,1.00,1.00,1.00
+2,2,2,1.00,1.00,1.00,1.00
+3,5,3,-12.90,2.06,0.00,0.00

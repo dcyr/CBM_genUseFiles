@@ -1,0 +1,6 @@
+"RecSourceRuleID","WritesToMultTables","NumParentPrimKeyFields","ChildTableName","ForeignKeyFieldIDs","FirstRepeatedArrayItem","ColumnsPerRepeat","NumReps","RepKeyDataImplied","RepKeyValuesSQL","RepKeyFieldIDs"
+4,0,,,,3,2,,0,,
+6,1,1,"tblSvoData","1",2,13,,0,"SELECT tblSpeciesType.SpeciesTypeID FROM tblSpeciesType GROUP BY tblSpeciesType.SpeciesTypeID","2"
+12,0,,,,3,2,,0,,
+14,1,1,"tblSvoData","1",4,13,,0,"SELECT tblSpeciesType.ForestTypeID FROM tblSpeciesType GROUP BY tblSpeciesType.Softwood","2"
+23,1,1,"tblSvoData","1",4,13,,0,"SELECT tblSpeciesType.ForestTypeID FROM tblSpeciesType GROUP BY tblSpeciesType.Softwood","2"

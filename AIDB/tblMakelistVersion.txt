@@ -1,0 +1,2 @@
+"MakelistVersionID","Name","Description","Type","Version","ExecutableFileName","ExecutablePath"
+1,"Makelist for CBM-CFS3","This is the test executable to be used in preparation for the Beta Training workshop.",1,1,"Makelist.exe",".\Admin\Executables"
