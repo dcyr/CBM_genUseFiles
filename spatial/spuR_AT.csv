@@ -1,0 +1,671 @@
+"ID","OBJECTID","PSPU_ID","ProvinceID","ProvinceNa","ProjectID","ProjectNam","EcoBoundar","EcoBound_1","AdminBound","AdminBou_1","NFCMARS_Ad","Reconcilia","SPUGROUPID","ManagedFor","Shape_Leng","Shape_Area"
+1,1,0,1,"Newfoundland",0,NA,17,"Boreal Shield East",19,"Gros Morne National Park of Canada","Gros Morne National Park of Canada",1,0,"Managed Forest",412673.718732,1788365552.23
+2,2,0,2,"Labrador",116,"UF",1,"Arctic Cordillera",8,"Non Managed Forest","Non Managed Forest",2,0,"Non Managed Forest",2966290.25621,9261211777.72
+3,3,0,2,"Labrador",116,"UF",1,"Arctic Cordillera",9,"Torngat Mountains National Park Reserve of Canada","Torngat Mountains National Park Reserve of Canada",2,0,"Non Managed Forest",1993712.34224,9459273247.86
+4,4,0,2,"Labrador",116,"UF",16,"Taiga Shield East",2,"19b","19b",3,0,"Non Managed Forest",1511703.56585,26214045055.3
+5,5,0,2,"Labrador",116,"UF",16,"Taiga Shield East",3,"19c","19c",3,0,"Non Managed Forest",1104931.47877,19540302889.5
+6,6,0,2,"Labrador",116,"UF",16,"Taiga Shield East",6,"22","22",3,0,"Non Managed Forest",2350380.10649,78858162310.2
+7,7,0,2,"Labrador",116,"UF",16,"Taiga Shield East",7,"23","23",3,0,"Non Managed Forest",2346762.87373,19923975191.6
+8,8,0,2,"Labrador",116,"UF",16,"Taiga Shield East",8,"Non Managed Forest","Non Managed Forest",3,0,"Non Managed Forest",6185474.72565,58940871714.4
+9,9,0,2,"Labrador",116,"UF",17,"Boreal Shield East",2,"19b","19b",4,0,"Non Managed Forest",858466.897343,3481569578.71
+10,10,0,2,"Labrador",116,"UF",17,"Boreal Shield East",3,"19c","19c",4,0,"Non Managed Forest",484924.341145,1530910343.95
+11,11,0,2,"Labrador",116,"UF",17,"Boreal Shield East",6,"22","22",4,0,"Non Managed Forest",729987.748386,2072878170.33
+12,12,0,2,"Labrador",116,"UF",17,"Boreal Shield East",7,"23","23",4,0,"Non Managed Forest",1660738.79228,8079759521.89
+13,13,0,6,"Quebec",116,"UF",1,"Arctic Cordillera",129,"Non Managed Forest","Non Managed Forest",8,0,"Non Managed Forest",1805925.01084,13562049508.5
+14,14,0,6,"Quebec",116,"UF",2,"Northern Arctic",129,"Non Managed Forest","Non Managed Forest",9,0,"Non Managed Forest",1723006.27811,36689581787.4
+15,15,0,6,"Quebec",116,"UF",3,"Southern Arctic",129,"Non Managed Forest","Non Managed Forest",10,0,"Non Managed Forest",4194258.6745,154323427347
+16,16,0,6,"Quebec",116,"UF",7,"Atlantic Maritime",129,"Non Managed Forest","Non Managed Forest",11,0,"Non Managed Forest",338232.533812,231942263.529
+17,17,0,6,"Quebec",116,"UF",15,"Hudson Plains",129,"Non Managed Forest","Non Managed Forest",13,0,"Non Managed Forest",1753133.59855,37299747378.5
+18,18,0,6,"Quebec",116,"UF",16,"Taiga Shield East",129,"Non Managed Forest","Non Managed Forest",14,0,"Non Managed Forest",9974014.95023,528856435522
+19,19,0,6,"Quebec",116,"UF",17,"Boreal Shield East",129,"Non Managed Forest","Non Managed Forest",15,0,"Non Managed Forest",10126983.9181,199725816435
+20,20,0,7,"Ontario",116,"UF",6,"Boreal Shield West",51,"Non Managed Forest","Non Managed Forest",16,0,"Non Managed Forest",2144969.56797,151126432005
+21,21,0,7,"Ontario",116,"UF",15,"Hudson Plains",51,"Non Managed Forest","Non Managed Forest",18,0,"Non Managed Forest",3324478.11068,256900680262
+22,22,0,7,"Ontario",116,"UF",17,"Boreal Shield East",51,"Non Managed Forest","Non Managed Forest",16,0,"Non Managed Forest",299402.887343,2193972379.95
+23,23,0,8,"Manitoba",116,"UF",3,"Southern Arctic",50,"Non Managed Forest","Non Managed Forest",20,0,"Non Managed Forest",458043.626205,1405653902.11
+24,24,0,8,"Manitoba",116,"UF",5,"Taiga Shield West",50,"Non Managed Forest","Non Managed Forest",21,0,"Non Managed Forest",1988364.32435,130749892222
+25,25,0,8,"Manitoba",116,"UF",6,"Boreal Shield West",50,"Non Managed Forest","Non Managed Forest",22,0,"Non Managed Forest",2979885.06309,123232661623
+26,26,0,8,"Manitoba",116,"UF",15,"Hudson Plains",50,"Non Managed Forest","Non Managed Forest",25,0,"Non Managed Forest",2036954.65723,59660905045.7
+27,27,0,8,"Manitoba",116,"UF",15,"Hudson Plains",52,"Wapusk National Park of Canada","Wapusk National Park of Canada",25,0,"Non Managed Forest",539303.826804,10652852926.1
+28,28,0,9,"Saskatchewan",116,"UF",5,"Taiga Shield West",21,"Non Managed Forest","Non Managed Forest",26,0,"Non Managed Forest",1742770.1942,49494352823.9
+29,29,0,9,"Saskatchewan",116,"UF",6,"Boreal Shield West",21,"Non Managed Forest","Non Managed Forest",27,0,"Non Managed Forest",1914820.96013,97276060847.8
+30,30,0,9,"Saskatchewan",116,"UF",9,"Boreal Plains",21,"Non Managed Forest","Non Managed Forest",28,0,"Non Managed Forest",263187.975196,1921380068.09
+31,31,0,12,"Yukon",116,"UF",3,"Southern Arctic",0,"Non Managed Forest","Non Managed Forest",43,0,"Non Managed Forest",474346.237825,2430134446.06
+32,32,0,12,"Yukon",116,"UF",3,"Southern Arctic",10,"Ivvavik National Park of Canada","Ivvavik National Park of Canada",43,0,"Non Managed Forest",483600.283336,2438960257.54
+33,33,0,12,"Yukon",116,"UF",4,"Taiga Plains",0,"Non Managed Forest","Non Managed Forest",44,0,"Non Managed Forest",1165859.41234,17691279770.4
+34,34,0,12,"Yukon",116,"UF",11,"Taiga Cordillera",0,"Non Managed Forest","Non Managed Forest",45,0,"Non Managed Forest",3456203.53838,140721672652
+35,35,0,12,"Yukon",116,"UF",11,"Taiga Cordillera",9,"Vuntut National Park of Canada","Vuntut National Park of Canada",45,0,"Non Managed Forest",600194.856304,4441439862.34
+36,36,0,12,"Yukon",116,"UF",11,"Taiga Cordillera",10,"Ivvavik National Park of Canada","Ivvavik National Park of Canada",45,0,"Non Managed Forest",443075.457845,7268844419.99
+37,37,0,12,"Yukon",116,"UF",12,"Boreal Cordillera",0,"Non Managed Forest","Non Managed Forest",46,0,"Non Managed Forest",5393366.36988,88772812601.5
+38,38,0,13,"Northwest Territories",116,"UF",2,"Northern Arctic",3,"Aulavik National Park of Canada","Aulavik National Park of Canada",48,0,"Non Managed Forest",678990.546937,12090448329.4
+39,39,0,13,"Northwest Territories",116,"UF",2,"Northern Arctic",20,"Non Managed Forest","Non Managed Forest",48,0,"Non Managed Forest",11853276.4541,199307821820
+40,40,0,13,"Northwest Territories",116,"UF",3,"Southern Arctic",20,"Non Managed Forest","Non Managed Forest",49,0,"Non Managed Forest",7725483.73822,166870502726
+41,41,0,13,"Northwest Territories",116,"UF",3,"Southern Arctic",24,"Tuktut Nogait National Park of Canada","Tuktut Nogait National Park of Canada",49,0,"Non Managed Forest",649650.634067,18837507810
+42,42,0,13,"Northwest Territories",116,"UF",4,"Taiga Plains",1,"Non Managed Forest","Non Managed Forest",50,0,"Non Managed Forest",80515.1586301,96976915.5391
+43,43,0,13,"Northwest Territories",116,"UF",4,"Taiga Plains",20,"Non Managed Forest","Non Managed Forest",50,0,"Non Managed Forest",14506771.6417,272820604778
+44,44,0,13,"Northwest Territories",116,"UF",5,"Taiga Shield West",20,"Non Managed Forest","Non Managed Forest",51,0,"Non Managed Forest",6438005.13156,279853470793
+45,45,0,13,"Northwest Territories",116,"UF",9,"Boreal Plains",20,"Non Managed Forest","Non Managed Forest",52,0,"Non Managed Forest",167759.195863,676218420.76
+46,46,0,13,"Northwest Territories",116,"UF",11,"Taiga Cordillera",20,"Non Managed Forest","Non Managed Forest",53,0,"Non Managed Forest",3041964.95053,78269354872.7
+47,47,0,13,"Northwest Territories",116,"UF",12,"Boreal Cordillera",20,"Non Managed Forest","Non Managed Forest",54,0,"Non Managed Forest",671914.808193,2737307145.36
+48,48,0,14,"Nunavut",116,"UF",1,"Arctic Cordillera",1,"Non Managed Forest","Non Managed Forest",55,0,"Non Managed Forest",20597173.2641,171184471914
+49,49,0,14,"Nunavut",116,"UF",1,"Arctic Cordillera",4,"Torngat Mountains National Park Reserve of Canada","Torngat Mountains National Park Reserve of Canada",55,0,"Non Managed Forest",21820.0470332,5881558.69743
+50,50,0,14,"Nunavut",116,"UF",1,"Arctic Cordillera",5,"Auyuittuq National Park of Canada","Auyuittuq National Park of Canada",55,0,"Non Managed Forest",1709474.60034,17618131230.1
+51,51,0,14,"Nunavut",116,"UF",1,"Arctic Cordillera",6,"Sirmilik National Park of Canada","Sirmilik National Park of Canada",55,0,"Non Managed Forest",960264.053728,9718331417.19
+52,52,0,14,"Nunavut",116,"UF",1,"Arctic Cordillera",8,"Quttinirpaaq National Park of Canada","Quttinirpaaq National Park of Canada",55,0,"Non Managed Forest",1265089.03224,13754472612.9
+53,53,0,14,"Nunavut",116,"UF",2,"Northern Arctic",1,"Non Managed Forest","Non Managed Forest",56,0,"Non Managed Forest",92904713.3856,1220955636080
+54,54,0,14,"Nunavut",116,"UF",2,"Northern Arctic",5,"Auyuittuq National Park of Canada","Auyuittuq National Park of Canada",56,0,"Non Managed Forest",363006.626065,1004011217.13
+55,55,0,14,"Nunavut",116,"UF",2,"Northern Arctic",6,"Sirmilik National Park of Canada","Sirmilik National Park of Canada",56,0,"Non Managed Forest",1580816.98511,12258823978.8
+56,56,0,14,"Nunavut",116,"UF",2,"Northern Arctic",7,"Ukkusiksalik National Park of Canada","Ukkusiksalik National Park of Canada",56,0,"Non Managed Forest",1585376.4852,17527799118.7
+57,57,0,14,"Nunavut",116,"UF",2,"Northern Arctic",8,"Quttinirpaaq National Park of Canada","Quttinirpaaq National Park of Canada",56,0,"Non Managed Forest",2267534.83841,21460575764.9
+58,58,0,14,"Nunavut",116,"UF",3,"Southern Arctic",1,"Non Managed Forest","Non Managed Forest",57,0,"Non Managed Forest",22521492.9857,505912359655
+59,59,0,14,"Nunavut",116,"UF",3,"Southern Arctic",3,"Tuktut Nogait National Park of Canada","Tuktut Nogait National Park of Canada",57,0,"Non Managed Forest",436427.131235,35219933.9223
+60,60,0,14,"Nunavut",116,"UF",5,"Taiga Shield West",1,"Non Managed Forest","Non Managed Forest",58,0,"Non Managed Forest",2176081.78965,103406740673
+61,61,0,14,"Nunavut",116,"UF",15,"Hudson Plains",1,"Non Managed Forest","Non Managed Forest",59,0,"Non Managed Forest",805444.441132,3687031546.25
+62,62,0,14,"Nunavut",116,"UF",15,"Hudson Plains",2,"Wapusk National Park of Canada","Wapusk National Park of Canada",59,0,"Non Managed Forest",14022.7905369,2468049.05459
+63,63,0,14,"Nunavut",116,"UF",16,"Taiga Shield East",1,"Non Managed Forest","Non Managed Forest",60,0,"Non Managed Forest",1398940.04398,686829974.402
+64,64,10001,1,"Newfoundland",1,"NF",17,"Boreal Shield East",1,"1","- District 1",1,95,"Managed Forest",1500146.91682,9647081467.1
+65,65,10002,1,"Newfoundland",1,"NF",17,"Boreal Shield East",10,"10","- District 10",1,96,"Managed Forest",215425.607044,1941316729.51
+66,66,10003,1,"Newfoundland",1,"NF",17,"Boreal Shield East",11,"11","- District 11",1,97,"Managed Forest",284887.10633,2990375680
+67,67,10004,1,"Newfoundland",1,"NF",17,"Boreal Shield East",12,"12","- District 12",1,98,"Managed Forest",480895.45391,4857275654.03
+68,68,10005,1,"Newfoundland",1,"NF",17,"Boreal Shield East",13,"13","- District 13",1,99,"Managed Forest",314270.313796,2592855875.85
+69,69,10006,1,"Newfoundland",1,"NF",17,"Boreal Shield East",14,"14","- District 14",1,100,"Managed Forest",1582219.91022,15142498537.7
+70,70,10007,1,"Newfoundland",1,"NF",17,"Boreal Shield East",15,"15","- District 15",1,101,"Managed Forest",769750.063976,5720120601.69
+71,71,10008,1,"Newfoundland",1,"NF",17,"Boreal Shield East",16,"16","- District 16",1,102,"Managed Forest",657704.142439,6746023696.26
+72,72,10009,1,"Newfoundland",1,"NF",17,"Boreal Shield East",17,"17","- District 17",1,103,"Managed Forest",971320.938462,6529711542.61
+73,73,10010,1,"Newfoundland",1,"NF",17,"Boreal Shield East",18,"18","- District 18",1,104,"Managed Forest",1137583.83288,6105769255.4
+74,74,10011,1,"Newfoundland",1,"NF",17,"Boreal Shield East",2,"2","- District 2",1,105,"Managed Forest",1139881.54487,4974692895.97
+75,75,10012,1,"Newfoundland",1,"NF",17,"Boreal Shield East",3,"3","- Parks Etc",1,106,"Managed Forest",1371285.2049,6796904294.64
+76,76,10013,1,"Newfoundland",1,"NF",17,"Boreal Shield East",4,"4","- District 04",1,107,"Managed Forest",354129.468666,3016265983.62
+77,77,10014,1,"Newfoundland",1,"NF",17,"Boreal Shield East",5,"5","- District 5",1,108,"Managed Forest",1286932.47448,5866871849.1
+78,78,10015,1,"Newfoundland",1,"NF",17,"Boreal Shield East",6,"6","- District 6",1,109,"Managed Forest",517738.347746,4516661861.03
+79,79,10016,1,"Newfoundland",1,"NF",17,"Boreal Shield East",7,"7","District 7",1,110,"Managed Forest",1717960.36098,12255389226.4
+80,80,10017,1,"Newfoundland",1,"NF",17,"Boreal Shield East",8,"8","District 8",1,111,"Managed Forest",1432297.85085,2825307575.56
+81,81,10018,1,"Newfoundland",1,"NF",17,"Boreal Shield East",9,"9","District 9",1,112,"Managed Forest",1139790.68194,6282410167.68
+82,82,20003,2,"Labrador",2,"LB",17,"Boreal Shield East",1,"19","district 19a",4,2,"Managed Forest",1485589.61695,9266138390.14
+83,83,20006,2,"Labrador",2,"LB",17,"Boreal Shield East",4,"20","district 20",4,4,"Managed Forest",1187210.62336,12200857594.5
+84,84,20007,2,"Labrador",2,"LB",17,"Boreal Shield East",5,"21","district 21",4,6,"Managed Forest",1268949.88297,13231875571.7
+85,85,20010,2,"Labrador",2,"LB",16,"Taiga Shield East",1,"19","district 19a",3,1,"Managed Forest",957239.98748,11341081558.9
+86,86,20013,2,"Labrador",2,"LB",16,"Taiga Shield East",4,"20","district 20",3,3,"Managed Forest",1710390.00897,8643450511.7
+87,87,20014,2,"Labrador",2,"LB",16,"Taiga Shield East",5,"21","district 21",3,5,"Managed Forest",1248417.22272,6326183711.55
+88,88,30001,3,"Nova Scotia",3,"NS",7,"Atlantic Maritime",1,"Nova Scotia","Nova Scotia",5,1,"Managed Forest",6516449.8308,55640310389.3
+89,89,40001,4,"Prince Edward Island",4,"PEI",7,"Atlantic Maritime",1,"Prince Edward Island","Prince Edward Island",6,1,"Managed Forest",1120743.48929,5931734938
+90,90,50001,5,"New Brunswick",5,"NB",7,"Atlantic Maritime",3,"New Brunswick","New Brunswick",7,1,"Managed Forest",2728410.49759,73010033113.2
+91,91,60002,6,"Quebec",64,"QCG",7,"Atlantic Maritime",1,"011-02","011-02",11,1250,"Managed Forest",42378.2971281,71508809.2441
+92,92,60003,6,"Quebec",64,"QCG",7,"Atlantic Maritime",2,"011-04","011-04",11,1251,"Managed Forest",442390.440463,1215549682.89
+93,93,60004,6,"Quebec",64,"QCG",7,"Atlantic Maritime",3,"011-05","011-05",11,1252,"Managed Forest",151808.648514,483587771.951
+94,94,60005,6,"Quebec",64,"QCG",7,"Atlantic Maritime",4,"011-06","011-06",11,1253,"Managed Forest",154708.601764,358697732.136
+95,95,60006,6,"Quebec",64,"QCG",7,"Atlantic Maritime",5,"011-21","011-21",11,1254,"Managed Forest",114565.840415,450518592.077
+96,96,60007,6,"Quebec",64,"QCG",7,"Atlantic Maritime",6,"011-27","011-27",11,1255,"Managed Forest",260551.856409,830065808.626
+97,97,60008,6,"Quebec",64,"QCG",7,"Atlantic Maritime",7,"012-01","012-01",11,1256,"Managed Forest",138896.336014,344879300.632
+98,98,60009,6,"Quebec",64,"QCG",7,"Atlantic Maritime",8,"012-03","012-03",11,1257,"Managed Forest",88244.7579362,332164349.355
+99,99,60010,6,"Quebec",64,"QCG",7,"Atlantic Maritime",9,"012-04","012-04",11,1258,"Managed Forest",166495.42597,986010382.553
+100,100,60011,6,"Quebec",64,"QCG",7,"Atlantic Maritime",10,"012-05","012-05",11,1259,"Managed Forest",47160.7873872,86734591.6641
+101,101,60012,6,"Quebec",64,"QCG",7,"Atlantic Maritime",11,"012-09","012-09",11,1260,"Managed Forest",67055.0529036,176833328.776
+102,102,60013,6,"Quebec",64,"QCG",7,"Atlantic Maritime",12,"012-10","012-10",11,1261,"Managed Forest",146643.707418,515699284.482
+103,103,60014,6,"Quebec",64,"QCG",7,"Atlantic Maritime",13,"012-12","012-12",11,1262,"Managed Forest",35534.912589,63742835.8065
+104,104,60015,6,"Quebec",64,"QCG",7,"Atlantic Maritime",14,"012-20","012-20",11,1263,"Managed Forest",409524.158281,1624166198.52
+105,105,60016,6,"Quebec",64,"QCG",7,"Atlantic Maritime",15,"012-40","012-40A",11,1264,"Managed Forest",717979.015068,3584593647.6
+106,106,60017,6,"Quebec",64,"QCG",7,"Atlantic Maritime",43,"034-03","034-03",11,1265,"Managed Forest",192190.63697,279377510.157
+107,107,60018,6,"Quebec",64,"QCG",7,"Atlantic Maritime",44,"034-04","034-04",11,1266,"Managed Forest",53534.0683707,72614410.2419
+108,108,60019,6,"Quebec",64,"QCG",7,"Atlantic Maritime",46,"035-01","035-01",11,1267,"Managed Forest",544973.382977,1001051366.39
+109,109,60020,6,"Quebec",64,"QCG",7,"Atlantic Maritime",56,"051-01","051-01",11,1268,"Managed Forest",52078.0568608,96581337.4358
+110,110,60021,6,"Quebec",64,"QCG",7,"Atlantic Maritime",101,"111-02","111-02",11,1269,"Managed Forest",114230.961423,294177874.284
+111,111,60022,6,"Quebec",64,"QCG",7,"Atlantic Maritime",102,"111-03","111-03",11,1270,"Managed Forest",218358.299523,818387109.151
+112,112,60023,6,"Quebec",64,"QCG",7,"Atlantic Maritime",103,"111-10","111-10",11,1271,"Managed Forest",97141.7088863,243214799.317
+113,113,60024,6,"Quebec",64,"QCG",7,"Atlantic Maritime",104,"111-11","111-11",11,1272,"Managed Forest",52425.1648488,134143187.476
+114,114,60025,6,"Quebec",64,"QCG",7,"Atlantic Maritime",105,"111-25","111-25",11,1273,"Managed Forest",482581.952977,2042746372.99
+115,115,60026,6,"Quebec",64,"QCG",7,"Atlantic Maritime",106,"111-27","111-27",11,1274,"Managed Forest",282394.965612,1450986288.94
+116,116,60027,6,"Quebec",64,"QCG",7,"Atlantic Maritime",107,"111-28","111-28",11,1275,"Managed Forest",202906.264932,642830472.073
+117,117,60028,6,"Quebec",64,"QCG",7,"Atlantic Maritime",108,"112-01","112-01",11,1276,"Managed Forest",547586.533132,4106404942.17
+118,118,60029,6,"Quebec",64,"QCG",7,"Atlantic Maritime",109,"112-02","112-02",11,1277,"Managed Forest",70130.3185773,145731262.404
+119,119,60030,6,"Quebec",64,"QCG",7,"Atlantic Maritime",110,"112-05","112-05",11,1278,"Managed Forest",31234.5859338,36276989.4084
+120,120,60031,6,"Quebec",64,"QCG",7,"Atlantic Maritime",111,"112-20","112-20",11,1279,"Managed Forest",110951.058612,326640241.128
+121,121,60032,6,"Quebec",64,"QCG",7,"Atlantic Maritime",112,"112-21","112-21",11,1280,"Managed Forest",211130.976223,854202933.143
+122,122,60033,6,"Quebec",64,"QCG",7,"Atlantic Maritime",113,"112-22","112-22",11,1281,"Managed Forest",350044.818573,3031770657.84
+123,123,60034,6,"Quebec",64,"QCG",7,"Atlantic Maritime",115,"Appalaches (12-2)","APPALACHES",11,1282,"Managed Forest",1141877.7583,6977742954.97
+124,124,60035,6,"Quebec",64,"QCG",7,"Atlantic Maritime",116,"Bas-Saint-Laurent (01-1)","BAS ST-LAURENT",11,1283,"Managed Forest",2024301.43204,12415154430.2
+125,125,60037,6,"Quebec",64,"QCG",7,"Atlantic Maritime",118,"Chaudière (12-1)","CHAUDIERES",11,1285,"Managed Forest",712555.267856,6874417103.84
+126,126,60038,6,"Quebec",64,"QCG",7,"Atlantic Maritime",120,"Estrie (05-1)","ESTRIE",11,1286,"Managed Forest",635591.060342,10275425886.9
+127,127,60040,6,"Quebec",64,"QCG",7,"Atlantic Maritime",122,"Gaspésie-les-îles (11-1)","GASPESIE",11,1288,"Managed Forest",1752955.277,5546061694.7
+128,128,60044,6,"Quebec",66,"QCL",17,"Boreal Shield East",16,"021-01","021-01",15,1250,"Managed Forest",221079.315953,711016452.805
+129,129,60045,6,"Quebec",66,"QCL",17,"Boreal Shield East",17,"021-02","021-02",15,1251,"Managed Forest",243080.636643,1144176682.12
+130,130,60046,6,"Quebec",66,"QCL",17,"Boreal Shield East",18,"022-01","022-01",15,1252,"Managed Forest",418953.342358,2897022240
+131,131,60047,6,"Quebec",66,"QCL",17,"Boreal Shield East",19,"022-02","022-02",15,1253,"Managed Forest",166047.69355,641822252.473
+132,132,60048,6,"Quebec",66,"QCL",17,"Boreal Shield East",20,"022-03","022-03",15,1254,"Managed Forest",58955.0850115,171970250.482
+133,133,60049,6,"Quebec",66,"QCL",17,"Boreal Shield East",21,"022-04","022-04",15,1255,"Managed Forest",103323.821338,288672538.472
+134,134,60050,6,"Quebec",66,"QCL",17,"Boreal Shield East",22,"022-05","022-05",15,1256,"Managed Forest",144432.111677,247050710.702
+135,135,60051,6,"Quebec",65,"QCR",17,"Boreal Shield East",23,"023-20","023-20",15,2010,"Managed Forest",928024.664036,6035370748.38
+136,136,60052,6,"Quebec",65,"QCR",17,"Boreal Shield East",24,"023-21","023-21",15,2011,"Managed Forest",728423.752887,5968537079.07
+137,137,60053,6,"Quebec",65,"QCR",17,"Boreal Shield East",25,"024-01","024-01",15,2012,"Managed Forest",1047125.74911,11331854420.3
+138,138,60054,6,"Quebec",65,"QCR",17,"Boreal Shield East",26,"024-02","024-02",15,2013,"Managed Forest",203851.772369,835961186.236
+139,139,60055,6,"Quebec",65,"QCR",17,"Boreal Shield East",27,"024-03","024-03",15,2014,"Managed Forest",917911.313899,11366150820.4
+140,140,60056,6,"Quebec",65,"QCR",17,"Boreal Shield East",28,"025-01","025-01",15,2015,"Managed Forest",164559.248982,636248560.281
+141,141,60057,6,"Quebec",65,"QCR",17,"Boreal Shield East",29,"025-02","025-02",15,2016,"Managed Forest",399118.711758,2121140621.26
+142,142,60058,6,"Quebec",65,"QCR",17,"Boreal Shield East",30,"025-03","025-03",15,2017,"Managed Forest",1801352.95947,22561563560.5
+143,143,60059,6,"Quebec",65,"QCR",17,"Boreal Shield East",31,"026-04","026-04",15,2018,"Managed Forest",334069.383013,2681692406.48
+144,144,60060,6,"Quebec",65,"QCR",17,"Boreal Shield East",32,"026-05","026-05",15,2019,"Managed Forest",1275166.32997,12833868420.1
+145,145,60061,6,"Quebec",65,"QCR",17,"Boreal Shield East",33,"026-06","026-06",15,2020,"Managed Forest",307800.080961,1600062088.15
+146,146,60062,6,"Quebec",65,"QCR",17,"Boreal Shield East",34,"026-20","026-20",15,2021,"Managed Forest",1027137.99693,17300068271.5
+147,147,60063,6,"Quebec",65,"QCR",17,"Boreal Shield East",35,"027-01","027-01",15,2022,"Managed Forest",102399.994347,294885077.383
+148,148,60064,6,"Quebec",65,"QCR",17,"Boreal Shield East",36,"027-02","027-02",15,2023,"Managed Forest",881620.412136,12521546633.9
+149,149,60065,6,"Quebec",66,"QCL",17,"Boreal Shield East",37,"031-01","031-01",15,1271,"Managed Forest",121060.232431,320271310.857
+150,150,60066,6,"Quebec",66,"QCL",17,"Boreal Shield East",38,"031-02","031-02",15,1272,"Managed Forest",213108.410297,1137484151.27
+151,151,60067,6,"Quebec",66,"QCL",17,"Boreal Shield East",39,"031-03","031-03",15,1273,"Managed Forest",83111.8004788,283197957.548
+152,152,60068,6,"Quebec",66,"QCL",17,"Boreal Shield East",40,"031-04","031-04",15,1274,"Managed Forest",263635.658304,1548423886.67
+153,153,60069,6,"Quebec",66,"QCL",17,"Boreal Shield East",41,"031-07","031-07",15,1275,"Managed Forest",283078.334871,1379566118.87
+154,154,60070,6,"Quebec",66,"QCL",17,"Boreal Shield East",42,"033-30","033-30",15,1276,"Managed Forest",818338.020689,3985780362.18
+155,155,60071,6,"Quebec",66,"QCL",17,"Boreal Shield East",47,"041-01","041-01",15,1277,"Managed Forest",558752.104494,3140354928.52
+156,156,60072,6,"Quebec",66,"QCL",17,"Boreal Shield East",48,"041-02","041-02",15,1278,"Managed Forest",345750.467228,2238149110.22
+157,157,60073,6,"Quebec",66,"QCL",17,"Boreal Shield East",49,"042-01","042-01",15,1279,"Managed Forest",721856.963399,3540217086.47
+158,158,60074,6,"Quebec",66,"QCL",17,"Boreal Shield East",50,"042-02","042-02",15,1280,"Managed Forest",697593.072403,5474675074.11
+159,159,60075,6,"Quebec",66,"QCL",17,"Boreal Shield East",51,"042-03","042-03",15,1281,"Managed Forest",179338.659946,1126893589.22
+160,160,60076,6,"Quebec",66,"QCL",17,"Boreal Shield East",52,"043-02","043-02",15,1282,"Managed Forest",463401.101486,4976360630.26
+161,161,60077,6,"Quebec",66,"QCL",17,"Boreal Shield East",53,"043-03","043-03",15,1283,"Managed Forest",429812.01139,1864438658.23
+162,162,60078,6,"Quebec",66,"QCL",17,"Boreal Shield East",54,"043-04","043-04",15,1284,"Managed Forest",309039.759959,3110010711.67
+163,163,60079,6,"Quebec",66,"QCL",17,"Boreal Shield East",55,"043-20","043-20",15,1285,"Managed Forest",904502.955805,7875611183.74
+164,164,60080,6,"Quebec",66,"QCL",17,"Boreal Shield East",57,"061-01","061-01",15,1286,"Managed Forest",352780.904875,568442478.966
+165,165,60081,6,"Quebec",66,"QCL",17,"Boreal Shield East",58,"061-02","061-02",15,1287,"Managed Forest",315088.405142,1550185842.33
+166,166,60082,6,"Quebec",66,"QCL",17,"Boreal Shield East",59,"062-01","062-01",15,1288,"Managed Forest",373380.435283,1107637949.62
+167,167,60083,6,"Quebec",66,"QCL",17,"Boreal Shield East",60,"062-02","062-02",15,1289,"Managed Forest",458809.455386,4400977543.84
+168,168,60084,6,"Quebec",66,"QCL",17,"Boreal Shield East",61,"064-01","064-01",15,1290,"Managed Forest",474133.443333,4177037397.92
+169,169,60085,6,"Quebec",66,"QCL",17,"Boreal Shield East",62,"064-02","064-02",15,1291,"Managed Forest",522025.731617,1987733545.03
+170,170,60086,6,"Quebec",66,"QCL",17,"Boreal Shield East",63,"064-03","064-03",15,1292,"Managed Forest",644445.964149,6402837158.43
+171,171,60087,6,"Quebec",66,"QCL",17,"Boreal Shield East",64,"071-01","071-01",15,1293,"Managed Forest",331513.215514,3306787987.72
+172,172,60088,6,"Quebec",66,"QCL",17,"Boreal Shield East",65,"071-04","071-04",15,1294,"Managed Forest",385310.807774,998077883.066
+173,173,60089,6,"Quebec",66,"QCL",17,"Boreal Shield East",66,"071-20","071-20",15,1295,"Managed Forest",279144.786202,2581733219.21
+174,174,60090,6,"Quebec",66,"QCL",17,"Boreal Shield East",67,"071-21","071-21",15,1296,"Managed Forest",268454.782713,1706757783.9
+175,175,60091,6,"Quebec",66,"QCL",17,"Boreal Shield East",68,"072-01","072-01",15,1297,"Managed Forest",292128.224272,362034020.265
+176,176,60092,6,"Quebec",66,"QCL",17,"Boreal Shield East",69,"072-02","072-02",15,1298,"Managed Forest",251844.470347,990794166.149
+177,177,60093,6,"Quebec",66,"QCL",17,"Boreal Shield East",70,"072-03","072-03",15,1299,"Managed Forest",80209.6666284,156482189.334
+178,178,60094,6,"Quebec",66,"QCL",17,"Boreal Shield East",71,"073-01","073-01",15,1300,"Managed Forest",932602.756416,13200399425.4
+179,179,60095,6,"Quebec",66,"QCL",17,"Boreal Shield East",72,"073-02","073-02",15,1301,"Managed Forest",779276.890565,4495260569.35
+180,180,60096,6,"Quebec",66,"QCL",17,"Boreal Shield East",73,"074-02","074-02",15,1302,"Managed Forest",253073.129674,1950087369.4
+181,181,60097,6,"Quebec",66,"QCL",17,"Boreal Shield East",74,"081-21","081-21",15,1303,"Managed Forest",561023.958211,7808963489.86
+182,182,60098,6,"Quebec",66,"QCL",17,"Boreal Shield East",75,"081-22","081-22",15,1304,"Managed Forest",363254.066253,4179946454.26
+183,183,60099,6,"Quebec",65,"QCR",17,"Boreal Shield East",76,"082-01","082-01",15,2058,"Managed Forest",229675.506799,554342778.132
+184,184,60100,6,"Quebec",65,"QCR",17,"Boreal Shield East",77,"082-85","082-85abc",15,2059,"Managed Forest",1477853.15747,6399657139.23
+185,185,60101,6,"Quebec",65,"QCR",17,"Boreal Shield East",78,"083-87","dont know",15,2060,"Managed Forest",1960844.14989,20351156702.4
+186,186,60102,6,"Quebec",65,"QCR",17,"Boreal Shield East",79,"084-03","084-03",15,2061,"Managed Forest",594368.635609,4179523642.14
+187,187,60103,6,"Quebec",65,"QCR",17,"Boreal Shield East",80,"084-04","084-04",15,2062,"Managed Forest",137646.194202,662294568.428
+188,188,60104,6,"Quebec",65,"QCR",17,"Boreal Shield East",81,"084-20","084-20",15,2063,"Managed Forest",1070994.51411,6258436764.44
+189,189,60105,6,"Quebec",65,"QCR",17,"Boreal Shield East",82,"085-20","085-20",15,2064,"Managed Forest",1148833.71949,9725959168.6
+190,190,60106,6,"Quebec",65,"QCR",17,"Boreal Shield East",83,"086-01","086-01",15,2065,"Managed Forest",491043.510447,1985425638.44
+191,191,60107,6,"Quebec",65,"QCR",17,"Boreal Shield East",84,"086-03","dont know",15,2066,"Managed Forest",595124.762798,1719710186.69
+192,192,60108,6,"Quebec",65,"QCR",17,"Boreal Shield East",85,"086-10","086-10",15,2067,"Managed Forest",400671.834,1556111308.01
+193,193,60109,6,"Quebec",65,"QCR",17,"Boreal Shield East",86,"086-20","086-20",15,2068,"Managed Forest",1333600.654,9260798374.29
+194,194,60110,6,"Quebec",65,"QCR",17,"Boreal Shield East",87,"086-21","086-21",15,2069,"Managed Forest",591801.773397,3839050442.26
+195,195,60111,6,"Quebec",65,"QCR",17,"Boreal Shield East",88,"086-22","086-22",15,2070,"Managed Forest",417154.253665,1221012471.45
+196,196,60112,6,"Quebec",65,"QCR",17,"Boreal Shield East",89,"086-23","086-23",15,2071,"Managed Forest",598200.415358,1738339565.86
+197,197,60113,6,"Quebec",65,"QCR",17,"Boreal Shield East",90,"086-24","dont know",15,2072,"Managed Forest",610956.22433,2053592343.24
+198,198,60114,6,"Quebec",65,"QCR",17,"Boreal Shield East",91,"087-04","087-04",15,2073,"Managed Forest",565645.291394,3829751469.17
+199,199,60115,6,"Quebec",65,"QCR",17,"Boreal Shield East",92,"087-20","087-20",15,2074,"Managed Forest",688201.798461,6441985234.21
+200,200,60116,6,"Quebec",65,"QCR",17,"Boreal Shield East",93,"090-30","090-30",15,2075,"Managed Forest",889460.626454,11044436825
+201,201,60117,6,"Quebec",65,"QCR",17,"Boreal Shield East",94,"092-01","092-01",15,2076,"Managed Forest",511293.278896,3964658549.17
+202,202,60118,6,"Quebec",65,"QCR",17,"Boreal Shield East",95,"093-01","093-01",15,2077,"Managed Forest",1408591.425,19538393062.7
+203,203,60119,6,"Quebec",65,"QCR",17,"Boreal Shield East",96,"093-02","093-02",15,2078,"Managed Forest",333959.425542,1913211873.31
+204,204,60120,6,"Quebec",65,"QCR",17,"Boreal Shield East",97,"093-20","093-20",15,2079,"Managed Forest",1015884.55962,14498541548.4
+205,205,60122,6,"Quebec",65,"QCR",17,"Boreal Shield East",99,"094-20","dont know",15,2081,"Managed Forest",1592937.58081,25992322945.5
+206,206,60123,6,"Quebec",65,"QCR",17,"Boreal Shield East",100,"095-01","095-01",15,2082,"Managed Forest",430856.420737,2894056455.49
+207,207,60124,6,"Quebec",65,"QCR",17,"Boreal Shield East",114,"Abitibi (08-2)","ABITIBI",15,2083,"Managed Forest",2258032.76228,10153336883.2
+208,208,60126,6,"Quebec",65,"QCR",17,"Boreal Shield East",119,"Côte-Nord (09-1)","COTE-NORD",15,2085,"Managed Forest",1708979.21741,5050563885.83
+209,209,60128,6,"Quebec",65,"QCR",17,"Boreal Shield East",124,"Lac-Saint-Jean ( 02-2)","LAC ST-JEAN",15,2087,"Managed Forest",922163.824745,6412566375.42
+210,210,60129,6,"Quebec",66,"QCL",17,"Boreal Shield East",125,"Lanaudière (14-1)","LANAUDIERE",15,1335,"Managed Forest",676385.872306,4967644872.91
+211,211,60130,6,"Quebec",66,"QCL",17,"Boreal Shield East",126,"Laurentides (15-1)","LAURENTIDES",15,1336,"Managed Forest",1397967.62315,8515941424.62
+212,212,60131,6,"Quebec",66,"QCL",17,"Boreal Shield East",127,"Mauriciennes (04-1)","MAURICIE",15,1337,"Managed Forest",1786496.96314,10617807767.4
+213,213,60133,6,"Quebec",66,"QCL",17,"Boreal Shield East",130,"Outaouaises (07-1)","dont know",15,1339,"Managed Forest",1646705.89444,9359587117.17
+214,214,60134,6,"Quebec",66,"QCL",17,"Boreal Shield East",131,"Québec 03 (03-1)","QUEBEC",15,1340,"Managed Forest",1341961.74905,9132972900.57
+215,215,60135,6,"Quebec",65,"QCR",17,"Boreal Shield East",132,"Saguenay (02-1)","SAGUENAY",15,2094,"Managed Forest",1115742.42615,5727119404.35
+216,216,60137,6,"Quebec",66,"QCL",17,"Boreal Shield East",134,"Témiscamingue (08-1)","TEMISCAMINGUE",15,1343,"Managed Forest",600470.239424,2458752449.8
+217,217,60140,6,"Quebec",64,"QCG",8,"Mixedwood Plains",45,"034-20","034-20",12,1388,"Managed Forest",74527.3693571,141331311.41
+218,218,60143,6,"Quebec",64,"QCG",8,"Mixedwood Plains",117,"Bois-Francs (17-1)","BOIS-FRANCS",12,1391,"Managed Forest",462701.893383,6982828931.98
+219,219,60149,6,"Quebec",64,"QCG",8,"Mixedwood Plains",128,"Montérégie (16-1)","MONTEREGIE",12,1397,"Managed Forest",617068.822572,12848860318.9
+220,220,70001,7,"Ontario",72,"ONE",17,"Boreal Shield East",1,"12","MU 12 FMS 2",19,6100,"Managed Forest",645988.375215,11865576325.7
+221,221,70002,7,"Ontario",72,"ONE",17,"Boreal Shield East",4,"140","MU 140 FMS 2",19,6101,"Managed Forest",541290.794698,9741304272.64
+222,222,70003,7,"Ontario",72,"ONE",17,"Boreal Shield East",5,"150","MU 150 FMS 2",19,6102,"Managed Forest",906134.026908,5693317551.28
+223,223,70004,7,"Ontario",72,"ONE",17,"Boreal Shield East",9,"210","MU 210 FMS 2",19,6103,"Managed Forest",621204.011154,12964568827.7
+224,224,70005,7,"Ontario",72,"ONE",17,"Boreal Shield East",10,"220","MU 220 FMS 2",19,6104,"Managed Forest",646113.819585,9908659473.09
+225,225,70006,7,"Ontario",72,"ONE",17,"Boreal Shield East",15,"360","MU 360 FMS 2",19,6105,"Managed Forest",1105045.10178,12898064231.7
+226,226,70007,7,"Ontario",72,"ONE",17,"Boreal Shield East",16,"370","MU 370 FMS 2",19,6106,"Managed Forest",378281.802255,2567569004.67
+227,227,70008,7,"Ontario",72,"ONE",17,"Boreal Shield East",17,"375","MU 375 FMS 2",19,6107,"Managed Forest",1066973.04787,12995642568.6
+228,228,70009,7,"Ontario",72,"ONE",17,"Boreal Shield East",18,"390","MU 390 FMS 2",19,6108,"Managed Forest",438745.621167,4482577401.16
+229,229,70010,7,"Ontario",72,"ONE",17,"Boreal Shield East",19,"40","MU 40 FMS 2",19,6109,"Managed Forest",585731.554057,5339231794.88
+230,230,70011,7,"Ontario",72,"ONE",17,"Boreal Shield East",22,"438","MU 438 FMS 2",19,6110,"Managed Forest",808412.834568,20061216415.9
+231,231,70012,7,"Ontario",72,"ONE",17,"Boreal Shield East",24,"448","MU 448 FMS 2",19,6111,"Managed Forest",808492.320702,8856971857.62
+232,232,70013,7,"Ontario",72,"ONE",17,"Boreal Shield East",25,"451","MU 451 FMS 2",19,6112,"Managed Forest",476052.990405,7629665354.9
+233,233,70014,7,"Ontario",72,"ONE",17,"Boreal Shield East",27,"508","MU 508 FMS 2",19,6113,"Managed Forest",861336.111041,9405769634.59
+234,234,70015,7,"Ontario",72,"ONE",17,"Boreal Shield East",29,"565","MU 565 FMS 2",19,6114,"Managed Forest",396709.49393,4404378747.39
+235,235,70016,7,"Ontario",72,"ONE",17,"Boreal Shield East",30,"60","MU 60 FMS 2",19,6115,"Managed Forest",518026.468867,6165243750.98
+236,236,70017,7,"Ontario",72,"ONE",17,"Boreal Shield East",31,"601","MU 601 FMS 2",19,6116,"Managed Forest",952116.831197,15212191473.8
+237,237,70018,7,"Ontario",72,"ONE",17,"Boreal Shield East",32,"610","MU 610 FMS 2",19,6117,"Managed Forest",728017.66914,12074875922.2
+238,238,70019,7,"Ontario",72,"ONE",17,"Boreal Shield East",34,"67","MU 67 FMS 2",19,6118,"Managed Forest",517944.103994,6577730966.82
+239,239,70020,7,"Ontario",72,"ONE",17,"Boreal Shield East",35,"680","MU 680 FMS 2",19,6119,"Managed Forest",1025798.37746,12859767941.1
+240,240,70021,7,"Ontario",72,"ONE",17,"Boreal Shield East",37,"754","MU 754 FMS 2",19,6120,"Managed Forest",596805.371201,11478953161.8
+241,241,70022,7,"Ontario",72,"ONE",17,"Boreal Shield East",38,"765","MU 765 FMS 2",19,6121,"Managed Forest",629234.532777,6447200711.16
+242,242,70023,7,"Ontario",72,"ONE",17,"Boreal Shield East",39,"780","MU 780 FMS 2",19,6122,"Managed Forest",633928.31716,8062736172.94
+243,243,70024,7,"Ontario",72,"ONE",17,"Boreal Shield East",44,"868","MU 868 FMS 2",19,6123,"Managed Forest",314024.619942,3323384884.98
+244,244,70025,7,"Ontario",72,"ONE",17,"Boreal Shield East",45,"889","MU 889 FMS 2",19,6124,"Managed Forest",855836.575531,10326676583.3
+245,245,70026,7,"Ontario",72,"ONE",17,"Boreal Shield East",46,"898","MU 898 FMS 2",19,6125,"Managed Forest",499074.512995,6345506625.09
+246,246,70027,7,"Ontario",72,"ONE",17,"Boreal Shield East",47,"930","MU 930 FMS 2",19,6126,"Managed Forest",620247.556466,6303089614.64
+247,247,70028,7,"Ontario",72,"ONE",17,"Boreal Shield East",48,"949","MU 949 FMS 2",19,6127,"Managed Forest",759236.125307,7124970113.19
+248,248,70029,7,"Ontario",72,"ONE",15,"Hudson Plains",52,"FMS 3","dont know",18,6128,"Managed Forest",919729.703041,4256618433.88
+249,249,70031,7,"Ontario",72,"ONE",17,"Boreal Shield East",52,"FMS 3","dont know",19,6130,"Managed Forest",1977743.8104,6647092804.48
+250,250,70033,7,"Ontario",71,"ONW",6,"Boreal Shield West",2,"120","MU 120 FMS 2",16,700,"Managed Forest",799290.588173,10324625278.6
+251,251,70034,7,"Ontario",71,"ONW",6,"Boreal Shield West",3,"130","MU 130 FMS 2",16,701,"Managed Forest",1578316.53913,7332575643.36
+252,252,70035,7,"Ontario",71,"ONW",6,"Boreal Shield West",6,"175","MU 175 FMS 2",16,702,"Managed Forest",564004.663719,7183134165.99
+253,253,70036,7,"Ontario",71,"ONW",6,"Boreal Shield West",7,"177","MU 177 FMS 2",16,703,"Managed Forest",502422.819488,10657885980.6
+254,254,70037,7,"Ontario",71,"ONW",6,"Boreal Shield West",8,"178","MU 178 FMS 2",16,704,"Managed Forest",705150.686678,7752373804.55
+255,255,70038,7,"Ontario",71,"ONW",6,"Boreal Shield West",11,"230","MU 230 FMS 2",16,705,"Managed Forest",1068575.44838,11937632132.1
+256,256,70039,7,"Ontario",71,"ONW",6,"Boreal Shield West",12,"260","MU 260 FMS 2",16,706,"Managed Forest",555928.781117,11997397003.1
+257,257,70040,7,"Ontario",71,"ONW",6,"Boreal Shield West",13,"30","MU 30 FMS 2",16,707,"Managed Forest",788632.930736,8097900807.39
+258,258,70041,7,"Ontario",71,"ONW",6,"Boreal Shield West",14,"350","MU 350 FMS 2",16,708,"Managed Forest",1165671.12318,19794710090.8
+259,259,70042,7,"Ontario",71,"ONW",6,"Boreal Shield West",20,"405","MU 405 FMS 2",16,709,"Managed Forest",1051363.38852,15946199571.4
+260,260,70043,7,"Ontario",71,"ONW",6,"Boreal Shield West",21,"415","MU 415 FMS 2",16,710,"Managed Forest",1016481.51079,10915295480.6
+261,261,70044,7,"Ontario",71,"ONW",6,"Boreal Shield West",23,"444","MU 444 FMS 2",16,711,"Managed Forest",579425.008199,7165821026.66
+262,262,70045,7,"Ontario",71,"ONW",6,"Boreal Shield West",26,"490","MU 490 FMS 2",16,712,"Managed Forest",1194649.83784,10643190607.5
+263,263,70046,7,"Ontario",71,"ONW",6,"Boreal Shield West",28,"535","MU 535 FMS 2",16,713,"Managed Forest",906568.191831,3073810171.78
+264,264,70047,7,"Ontario",71,"ONW",6,"Boreal Shield West",33,"644","MU 644 FMS 2",16,714,"Managed Forest",1203750.36226,12256603657.7
+265,265,70048,7,"Ontario",71,"ONW",6,"Boreal Shield West",36,"702","MU 702 FMS 2",16,715,"Managed Forest",1824994.11821,11070236211.2
+266,266,70049,7,"Ontario",71,"ONW",6,"Boreal Shield West",40,"796","dont know",16,716,"Managed Forest",1088213.29067,7879429353.25
+267,267,70050,7,"Ontario",71,"ONW",6,"Boreal Shield West",41,"840","MU 840 FMS 2",16,717,"Managed Forest",359312.086818,3158548665.06
+268,268,70051,7,"Ontario",71,"ONW",6,"Boreal Shield West",42,"851","MU 851 FMS 2",16,718,"Managed Forest",271489.831744,2412215835.93
+269,269,70052,7,"Ontario",71,"ONW",6,"Boreal Shield West",43,"853","MU 853 FMS 2",16,719,"Managed Forest",313433.316631,3016712725.71
+270,270,70055,7,"Ontario",71,"ONW",6,"Boreal Shield West",52,"FMS 3","Boreal shield west FMS 3",16,722,"Managed Forest",4051168.60333,54734074104.3
+271,271,70062,7,"Ontario",72,"ONE",8,"Mixedwood Plains",52,"FMS 2","Mixedwood plains FMS 2",17,6161,"Managed Forest",4805783.93649,81226140231.9
+272,272,80001,8,"Manitoba",8,"MB",9,"Boreal Plains",1,"1","1",23,140,"Managed Forest",721095.160804,5481500765.67
+273,273,80002,8,"Manitoba",8,"MB",9,"Boreal Plains",2,"10","10",23,141,"Managed Forest",1050548.66011,4334372309.15
+274,274,80003,8,"Manitoba",8,"MB",9,"Boreal Plains",3,"11","11",23,142,"Managed Forest",540283.49904,8096638701.79
+275,275,80004,8,"Manitoba",8,"MB",9,"Boreal Plains",4,"12","12",23,143,"Managed Forest",470534.62576,8601895494.83
+276,276,80005,8,"Manitoba",8,"MB",9,"Boreal Plains",5,"13","13",23,144,"Managed Forest",327869.384937,3705415421.51
+277,277,80006,8,"Manitoba",8,"MB",9,"Boreal Plains",6,"14","14",23,145,"Managed Forest",204762.713585,2079484601.03
+278,278,80007,8,"Manitoba",8,"MB",9,"Boreal Plains",7,"20","20",23,146,"Managed Forest",296660.113953,371743994.785
+279,279,80008,8,"Manitoba",8,"MB",9,"Boreal Plains",8,"23","23",23,147,"Managed Forest",206695.254864,562470176.861
+280,280,80009,8,"Manitoba",8,"MB",9,"Boreal Plains",11,"35","35",23,148,"Managed Forest",132960.716128,157905480.795
+281,281,80010,8,"Manitoba",8,"MB",9,"Boreal Plains",14,"38","38",23,149,"Managed Forest",154691.335357,533486037.574
+282,282,80011,8,"Manitoba",8,"MB",9,"Boreal Plains",15,"39","39",23,150,"Managed Forest",261149.008977,3500344741.48
+283,283,80012,8,"Manitoba",8,"MB",9,"Boreal Plains",17,"40","40",23,151,"Managed Forest",335880.831261,4217311334.76
+284,284,80013,8,"Manitoba",8,"MB",9,"Boreal Plains",18,"41","41",23,152,"Managed Forest",461197.285482,8969410929.62
+285,285,80014,8,"Manitoba",8,"MB",9,"Boreal Plains",19,"42","42",23,153,"Managed Forest",578514.384778,8121655242.73
+286,286,80015,8,"Manitoba",8,"MB",9,"Boreal Plains",20,"43","43",23,154,"Managed Forest",512400.411708,6687349069.33
+287,287,80016,8,"Manitoba",8,"MB",9,"Boreal Plains",21,"45","45",23,155,"Managed Forest",484190.505559,8291964566.13
+288,288,80017,8,"Manitoba",8,"MB",9,"Boreal Plains",22,"46","46",23,156,"Managed Forest",311670.52433,4183579183.5
+289,289,80018,8,"Manitoba",8,"MB",9,"Boreal Plains",23,"47","47",23,157,"Managed Forest",467689.455918,6940701616.09
+290,290,80019,8,"Manitoba",8,"MB",9,"Boreal Plains",24,"5","5",23,158,"Managed Forest",203720.775603,714667790.758
+291,291,80020,8,"Manitoba",8,"MB",9,"Boreal Plains",25,"51","51",23,159,"Managed Forest",395669.71108,5892363529.72
+292,292,80021,8,"Manitoba",8,"MB",9,"Boreal Plains",26,"52","52",23,160,"Managed Forest",359456.474395,5601965060.99
+293,293,80022,8,"Manitoba",8,"MB",9,"Boreal Plains",27,"53","53",23,161,"Managed Forest",293821.022312,4754577082.59
+294,294,80023,8,"Manitoba",8,"MB",9,"Boreal Plains",28,"54","54",23,162,"Managed Forest",273148.796991,3737258078.56
+295,295,80024,8,"Manitoba",8,"MB",9,"Boreal Plains",29,"55","55",23,163,"Managed Forest",337189.988021,2960787565.81
+296,296,80025,8,"Manitoba",8,"MB",9,"Boreal Plains",30,"56","56",23,164,"Managed Forest",328181.488604,3114422245.36
+297,297,80026,8,"Manitoba",8,"MB",9,"Boreal Plains",31,"57","57",23,165,"Managed Forest",192707.713158,1489859345.19
+298,298,80027,8,"Manitoba",8,"MB",9,"Boreal Plains",33,"60","60",23,166,"Managed Forest",196250.23142,682465410.179
+299,299,80028,8,"Manitoba",8,"MB",9,"Boreal Plains",34,"61","61",23,167,"Managed Forest",159648.191302,429224536.685
+300,300,80029,8,"Manitoba",8,"MB",9,"Boreal Plains",35,"62","62",23,168,"Managed Forest",38523.3497956,41968286.8159
+301,301,80030,8,"Manitoba",8,"MB",9,"Boreal Plains",40,"7","7",23,169,"Managed Forest",291102.108832,1746000652.34
+302,302,80031,8,"Manitoba",8,"MB",9,"Boreal Plains",41,"82","82",23,170,"Managed Forest",462564.337807,5872177893.86
+303,303,80032,8,"Manitoba",8,"MB",9,"Boreal Plains",51,"Riding Mountain National Park of Canada","15",23,171,"Managed Forest",376402.827309,3077797873.3
+304,304,80033,8,"Manitoba",8,"MB",6,"Boreal Shield West",1,"1","1",22,172,"Managed Forest",285054.505497,465704832.941
+305,305,80034,8,"Manitoba",8,"MB",6,"Boreal Shield West",7,"20","20",22,173,"Managed Forest",579060.206269,8633573833.04
+306,306,80035,8,"Manitoba",8,"MB",6,"Boreal Shield West",8,"23","23",22,174,"Managed Forest",347196.056049,2539852413.88
+307,307,80036,8,"Manitoba",8,"MB",6,"Boreal Shield West",9,"30","30",22,175,"Managed Forest",327717.366328,3073480226.02
+308,308,80037,8,"Manitoba",8,"MB",6,"Boreal Shield West",10,"31","31",22,176,"Managed Forest",457497.960223,8060346302.2
+309,309,80038,8,"Manitoba",8,"MB",6,"Boreal Shield West",11,"35","35",22,177,"Managed Forest",531282.930868,6876362614.66
+310,310,80039,8,"Manitoba",8,"MB",6,"Boreal Shield West",12,"36","36",22,178,"Managed Forest",380633.668433,2944901439.3
+311,311,80040,8,"Manitoba",8,"MB",6,"Boreal Shield West",13,"37","37",22,179,"Managed Forest",369493.362291,6442231944.27
+312,312,80041,8,"Manitoba",8,"MB",6,"Boreal Shield West",14,"38","38",22,180,"Managed Forest",305929.647109,4883484238.52
+313,313,80042,8,"Manitoba",8,"MB",6,"Boreal Shield West",15,"39","39",22,181,"Managed Forest",326860.900626,5241711032.54
+314,314,80043,8,"Manitoba",8,"MB",6,"Boreal Shield West",17,"40","40",22,182,"Managed Forest",129606.652497,78899735.4516
+315,315,80044,8,"Manitoba",8,"MB",6,"Boreal Shield West",19,"42","42",22,183,"Managed Forest",68649.6261986,74926591.5114
+316,316,80045,8,"Manitoba",8,"MB",6,"Boreal Shield West",28,"54","54",22,184,"Managed Forest",65885.1055308,65354242.4518
+317,317,80046,8,"Manitoba",8,"MB",6,"Boreal Shield West",30,"56","56",22,185,"Managed Forest",59926.2159369,122739184.434
+318,318,80047,8,"Manitoba",8,"MB",6,"Boreal Shield West",33,"60","60",22,186,"Managed Forest",233131.541708,1606155656.12
+319,319,80048,8,"Manitoba",8,"MB",6,"Boreal Shield West",34,"61","61",22,187,"Managed Forest",252188.667404,2233565854.28
+320,320,80049,8,"Manitoba",8,"MB",6,"Boreal Shield West",35,"62","62",22,188,"Managed Forest",412067.942893,3848775013.85
+321,321,80050,8,"Manitoba",8,"MB",6,"Boreal Shield West",36,"63","63",22,189,"Managed Forest",294908.995486,4743832222.78
+322,322,80051,8,"Manitoba",8,"MB",6,"Boreal Shield West",37,"64","64",22,190,"Managed Forest",394086.562776,8788670418.7
+323,323,80052,8,"Manitoba",8,"MB",6,"Boreal Shield West",38,"65","65",22,191,"Managed Forest",335270.141991,6843944807.07
+324,324,80053,8,"Manitoba",8,"MB",6,"Boreal Shield West",39,"66","66",22,192,"Managed Forest",355516.716207,7503443040.31
+325,325,80054,8,"Manitoba",8,"MB",6,"Boreal Shield West",41,"82","82",22,193,"Managed Forest",562250.736475,8279419806.91
+326,326,80055,8,"Manitoba",8,"MB",6,"Boreal Shield West",42,"83","83",22,194,"Managed Forest",429057.300103,6928688474.02
+327,327,80056,8,"Manitoba",8,"MB",6,"Boreal Shield West",43,"84","84",22,195,"Managed Forest",330554.196899,4558011854.3
+328,328,80057,8,"Manitoba",8,"MB",6,"Boreal Shield West",44,"85","85",22,196,"Managed Forest",313727.410954,3702804679.22
+329,329,80058,8,"Manitoba",8,"MB",6,"Boreal Shield West",45,"86","86",22,197,"Managed Forest",430689.732925,6273417705.53
+330,330,80059,8,"Manitoba",8,"MB",6,"Boreal Shield West",46,"87","87",22,198,"Managed Forest",373674.243686,4453488163.14
+331,331,80060,8,"Manitoba",8,"MB",6,"Boreal Shield West",47,"88","88",22,199,"Managed Forest",292459.906591,3230027789.19
+332,332,80061,8,"Manitoba",8,"MB",6,"Boreal Shield West",48,"89","89",22,200,"Managed Forest",312589.124727,5702943887.84
+333,333,80062,8,"Manitoba",8,"MB",6,"Boreal Shield West",49,"94","94",22,201,"Managed Forest",156230.757421,1416390244.62
+334,334,80067,8,"Manitoba",8,"MB",10,"Subhumid Prairies",1,"1","1",24,206,"Managed Forest",1574699.47422,56328448068.1
+335,335,80068,8,"Manitoba",8,"MB",10,"Subhumid Prairies",2,"10","10",24,207,"Managed Forest",730039.847237,9661679301.76
+336,336,80069,8,"Manitoba",8,"MB",10,"Subhumid Prairies",3,"11","11",24,208,"Managed Forest",38038.840997,42845060.1357
+337,337,80070,8,"Manitoba",8,"MB",10,"Subhumid Prairies",5,"13","13",24,209,"Managed Forest",78122.3406542,64850797.2566
+338,338,80071,8,"Manitoba",8,"MB",10,"Subhumid Prairies",16,"4","4",24,210,"Managed Forest",182563.208767,1613754094.94
+339,339,80072,8,"Manitoba",8,"MB",10,"Subhumid Prairies",19,"42","42",24,211,"Managed Forest",292017.170468,1369308687.18
+340,340,80073,8,"Manitoba",8,"MB",10,"Subhumid Prairies",32,"6","6",24,212,"Managed Forest",90800.0986095,446492240.792
+341,341,80074,8,"Manitoba",8,"MB",10,"Subhumid Prairies",51,"Riding Mountain National Park of Canada","15",24,213,"Managed Forest",47303.1502591,13328118.2552
+342,342,90001,9,"Saskatchewan",9,"SK",9,"Boreal Plains",1,"Canwood Forest","Canwood Forest",28,65,"Managed Forest",40501.3600994,50845317.2584
+343,343,90002,9,"Saskatchewan",9,"SK",9,"Boreal Plains",2,"Clearwater Provincial Park","Clearwater Provincial Park",28,66,"Managed Forest",219104.683645,1150686786.32
+344,344,90003,9,"Saskatchewan",9,"SK",9,"Boreal Plains",4,"DND Air Weapons Range","DND Air Weapons Range",28,67,"Managed Forest",327637.678827,6343574850.96
+345,345,90004,9,"Saskatchewan",9,"SK",9,"Boreal Plains",5,"Duck Mountain Provincial Park","Duck Mountain Provincial Park",28,68,"Managed Forest",82148.5352761,267771439.996
+346,346,90005,9,"Saskatchewan",9,"SK",9,"Boreal Plains",6,"Fort a la Corne Forest","Fort a la Corne Forest",28,69,"Managed Forest",250577.236301,1331191854.9
+347,347,90006,9,"Saskatchewan",9,"SK",9,"Boreal Plains",8,"Greenwater Provincial Park","Greenwater Provincial Park",28,70,"Managed Forest",85649.9182037,210140466.085
+348,348,90007,9,"Saskatchewan",9,"SK",9,"Boreal Plains",9,"Kitsaki-Zelensky proposed FMA","Kitsaki-Zelensky proposed FMA",28,71,"Managed Forest",687342.656703,3130503470.58
+349,349,90008,9,"Saskatchewan",9,"SK",9,"Boreal Plains",10,"L&M FMA","L&M FMA",28,72,"Managed Forest",218379.842089,722364995.437
+350,350,90009,9,"Saskatchewan",9,"SK",9,"Boreal Plains",11,"La Ronge Provincial Park","La Ronge Provincial Park",28,73,"Managed Forest",113023.039754,261644849.171
+351,351,90010,9,"Saskatchewan",9,"SK",9,"Boreal Plains",12,"Meadow Lake Provincial Park","Meadow Lake Provincial Park",28,74,"Managed Forest",425776.620174,1692031831.65
+352,352,90011,9,"Saskatchewan",9,"SK",9,"Boreal Plains",13,"Mee-Toos proposed FMA south","Mee-Toos proposed FMA south",28,75,"Managed Forest",505538.700688,4864792287.49
+353,353,90012,9,"Saskatchewan",9,"SK",9,"Boreal Plains",14,"Mistik FMA","Mistik FMA",28,76,"Managed Forest",2136992.01299,21682681424.5
+354,354,90013,9,"Saskatchewan",9,"SK",9,"Boreal Plains",16,"NWC proposed FMA","NWC proposed FMA",28,77,"Managed Forest",610466.214269,6680508133.08
+355,355,90014,9,"Saskatchewan",9,"SK",9,"Boreal Plains",17,"Narrow Hills Provincial Park","Narrow Hills Provincial Park",28,78,"Managed Forest",129637.959935,586525994.408
+356,356,90015,9,"Saskatchewan",9,"SK",9,"Boreal Plains",18,"Nemeiben","Nemeiben",28,79,"Managed Forest",56714.3325901,24912397.0067
+357,357,90016,9,"Saskatchewan",9,"SK",9,"Boreal Plains",19,"Nemeiben 2","Nemeiben 2",28,80,"Managed Forest",131754.639709,633699229.757
+358,358,90017,9,"Saskatchewan",9,"SK",9,"Boreal Plains",20,"Nisbet and Island Forests","Nisbet and Island Forests",28,81,"Managed Forest",428860.819952,910154294.285
+359,359,90019,9,"Saskatchewan",9,"SK",9,"Boreal Plains",22,"Northern Fire Management","Northern Fire Management",28,83,"Managed Forest",391081.747267,4050607672.46
+360,360,90020,9,"Saskatchewan",9,"SK",9,"Boreal Plains",23,"Prince Albert National Park of Canada","Prince Albert national park",28,84,"Managed Forest",290814.985683,3955140751.17
+361,361,90021,9,"Saskatchewan",9,"SK",9,"Boreal Plains",24,"Southern Reconnaissance","Southern Reconnaissance",28,85,"Managed Forest",4945439.37457,52730093412.9
+362,362,90022,9,"Saskatchewan",9,"SK",9,"Boreal Plains",25,"Suggi Lowlands","Suggi Lowlands",28,86,"Managed Forest",405794.751919,5670607920.1
+363,363,90023,9,"Saskatchewan",9,"SK",9,"Boreal Plains",26,"Torch River Forest","Torch River Forest",28,87,"Managed Forest",31847.2064509,43173483.1164
+364,364,90024,9,"Saskatchewan",9,"SK",9,"Boreal Plains",27,"Turnor FMA","Turnor FMA",28,88,"Managed Forest",722679.491615,7398920763.12
+365,365,90025,9,"Saskatchewan",9,"SK",9,"Boreal Plains",28,"WCL Pasquia Porcupine FMA","Pasquia Porcupine FMA",28,89,"Managed Forest",1564605.08487,19979351132.9
+366,366,90026,9,"Saskatchewan",9,"SK",9,"Boreal Plains",29,"WCL Prince Albert FMA","Prince Albert FMA",28,90,"Managed Forest",1718482.96203,31863051860.8
+367,367,90027,9,"Saskatchewan",9,"SK",9,"Boreal Plains",30,"Wildcat Hills Provincial Park","Wildcat Hills Provincial Park",28,91,"Managed Forest",68610.5099203,205633769.894
+368,368,90028,9,"Saskatchewan",9,"SK",6,"Boreal Shield West",2,"Clearwater Provincial Park","Clearwater Provincial Park",27,92,"Managed Forest",230464.886484,1180114132.37
+369,369,90029,9,"Saskatchewan",9,"SK",6,"Boreal Shield West",9,"Kitsaki-Zelensky proposed FMA","Kitsaki-Zelensky proposed FMA",27,93,"Managed Forest",758205.432682,3093601759.55
+370,370,90030,9,"Saskatchewan",9,"SK",6,"Boreal Shield West",11,"La Ronge Provincial Park","La Ronge Provincial Park",27,94,"Managed Forest",395050.102908,3016253076.91
+371,371,90031,9,"Saskatchewan",9,"SK",6,"Boreal Shield West",13,"Mee-Toos proposed FMA south","Mee-Toos proposed FMA south",27,95,"Managed Forest",719046.662776,11806575961
+372,372,90032,9,"Saskatchewan",9,"SK",6,"Boreal Shield West",16,"NWC proposed FMA","NWC proposed FMA",27,96,"Managed Forest",371247.278386,1107119630.26
+373,373,90033,9,"Saskatchewan",9,"SK",6,"Boreal Shield West",18,"Nemeiben","Nemeiben",27,97,"Managed Forest",290343.461765,2163305393.85
+374,374,90034,9,"Saskatchewan",9,"SK",6,"Boreal Shield West",19,"Nemeiben 2","Nemeiben 2",27,98,"Managed Forest",58249.61549,43710177.4468
+375,375,90036,9,"Saskatchewan",9,"SK",6,"Boreal Shield West",22,"Northern Fire Management","Northern Fire Management",27,100,"Managed Forest",1924269.69245,59404950657
+376,376,90037,9,"Saskatchewan",9,"SK",6,"Boreal Shield West",27,"Turnor FMA","Turnor FMA",27,101,"Managed Forest",334344.220167,3579755004.57
+377,377,90038,9,"Saskatchewan",9,"SK",6,"Boreal Shield West",29,"WCL Prince Albert FMA","Prince Albert FMA",27,102,"Managed Forest",237132.008536,1073957365.44
+378,378,90039,9,"Saskatchewan",9,"SK",18,"Semiarid Prairies",17,"Cypress Hills Provincial Park","Cypress Hills Provincial Park",30,103,"Managed Forest",94828.8250415,180005114.031
+379,379,90041,9,"Saskatchewan",114,"SKH",18,"Semiarid Prairies",1,"Saskatchewan","Saskatchewan",30,0,"Managed Forest",2405987.67577,159211613146
+380,380,90042,9,"Saskatchewan",9,"SK",10,"Subhumid Prairies",15,"Moose Mountain Provincial Park","Moose Mountain Provincial Park",29,106,"Managed Forest",107159.619288,403192082.793
+381,381,90043,9,"Saskatchewan",9,"SK",10,"Subhumid Prairies",24,"Southern Reconnaissance","Southern Reconnaissance",29,107,"Managed Forest",3299256.29903,80956684472.8
+382,382,100000,10,"Alberta",10,"AB",4,"Taiga Plains",1,"31","31",31,1,"Managed Forest",116255.032189,2984451.76319
+383,383,100001,10,"Alberta",10,"AB",4,"Taiga Plains",29,"DMI","DMI",31,45,"Managed Forest",199025.772154,545571573.777
+384,384,100002,10,"Alberta",10,"AB",4,"Taiga Plains",43,"F10","F10",31,66,"Managed Forest",659819.740005,12502782970.3
+385,385,100003,10,"Alberta",10,"AB",4,"Taiga Plains",44,"F11","F11",31,67,"Managed Forest",83768.1020932,109273689.984
+386,386,100004,10,"Alberta",10,"AB",4,"Taiga Plains",45,"F14","F14",31,69,"Managed Forest",267881.07137,3446088623.44
+387,387,100005,10,"Alberta",10,"AB",4,"Taiga Plains",46,"F20","F20",31,70,"Managed Forest",467008.562181,8789480698.24
+388,388,100006,10,"Alberta",10,"AB",4,"Taiga Plains",47,"F23","F23",31,71,"Managed Forest",244292.606887,1499952305.55
+389,389,100007,10,"Alberta",10,"AB",4,"Taiga Plains",48,"F26","F26",31,73,"Managed Forest",42135.7154109,23783383.6364
+390,390,100008,10,"Alberta",10,"AB",4,"Taiga Plains",50,"FO1","FO1",31,77,"Managed Forest",12262.929842,7850316.91504
+391,391,100009,10,"Alberta",10,"AB",4,"Taiga Plains",73,"M1","M1",31,103,"Managed Forest",67510.0997631,243563660.919
+392,392,100010,10,"Alberta",10,"AB",4,"Taiga Plains",79,"MDFP","MDFP",31,110,"Managed Forest",323350.500973,875946611.692
+393,393,100011,10,"Alberta",10,"AB",4,"Taiga Plains",83,"P14","P14",31,115,"Managed Forest",6201.83478687,2092544.40923
+394,394,100012,10,"Alberta",10,"AB",4,"Taiga Plains",91,"PO3","PO3",31,123,"Managed Forest",109796.321819,188850398.951
+395,395,100013,10,"Alberta",10,"AB",4,"Taiga Plains",119,"ToFFP","ToFFP",31,156,"Managed Forest",1337857.08312,24403109319.3
+396,396,100014,10,"Alberta",10,"AB",4,"Taiga Plains",136,"WOOD BUFFALO","WOOD BUFFALO",31,178,"Managed Forest",534201.30688,9771772148.1
+397,397,100015,10,"Alberta",10,"AB",5,"Taiga Shield West",2,"32","32",32,2,"Managed Forest",67070.3148675,9243761.75524
+398,398,100016,10,"Alberta",10,"AB",5,"Taiga Shield West",10,"A12","A12",32,11,"Managed Forest",235665.692912,274230288.811
+399,399,100017,10,"Alberta",10,"AB",5,"Taiga Shield West",11,"A13","A13",32,14,"Managed Forest",472338.967553,8814911480.29
+400,400,100018,10,"Alberta",10,"AB",5,"Taiga Shield West",136,"WOOD BUFFALO","WOOD BUFFALO",32,179,"Managed Forest",62534.6593812,151874135.206
+401,401,100019,10,"Alberta",10,"AB",6,"Boreal Shield West",8,"A10","A10",33,7,"Managed Forest",58214.4398225,203584754.582
+402,402,100020,10,"Alberta",10,"AB",6,"Boreal Shield West",9,"A11","A11",33,9,"Managed Forest",163425.965388,1067861257.86
+403,403,100021,10,"Alberta",10,"AB",6,"Boreal Shield West",10,"A12","A12",33,12,"Managed Forest",396175.547034,5101146560.72
+404,404,100022,10,"Alberta",10,"AB",6,"Boreal Shield West",11,"A13","A13",33,15,"Managed Forest",1729.2871389,123917.358978
+405,405,100023,10,"Alberta",10,"AB",6,"Boreal Shield West",136,"WOOD BUFFALO","WOOD BUFFALO",33,180,"Managed Forest",4279.10864536,187716.443717
+406,406,100024,10,"Alberta",10,"AB",9,"Boreal Plains",4,"34","34",34,3,"Managed Forest",1420787.43755,1921911467.74
+407,407,100025,10,"Alberta",10,"AB",9,"Boreal Plains",8,"A10","A10",34,8,"Managed Forest",299584.766225,3593683782.24
+408,408,100026,10,"Alberta",10,"AB",9,"Boreal Plains",9,"A11","A11",34,10,"Managed Forest",220778.329007,2355503218.69
+409,409,100027,10,"Alberta",10,"AB",9,"Boreal Plains",10,"A12","A12",34,13,"Managed Forest",303596.907667,2484578344.4
+410,410,100028,10,"Alberta",10,"AB",9,"Boreal Plains",11,"A13","A13",34,16,"Managed Forest",407401.926672,1200554556.59
+411,411,100029,10,"Alberta",10,"AB",9,"Boreal Plains",12,"A14","A14",34,17,"Managed Forest",1400852.89046,2735542431.93
+412,412,100030,10,"Alberta",10,"AB",9,"Boreal Plains",13,"A15","A15",34,18,"Managed Forest",1013267.6418,2922595331.8
+413,413,100031,10,"Alberta",10,"AB",9,"Boreal Plains",14,"A6","A6",34,19,"Managed Forest",234206.515726,3418583885.6
+414,414,100032,10,"Alberta",10,"AB",9,"Boreal Plains",15,"A9","A9",34,20,"Managed Forest",318672.584723,6059318654.18
+415,415,100033,10,"Alberta",10,"AB",9,"Boreal Plains",17,"ANC","ANC",34,23,"Managed Forest",642682.432762,3537586652.2
+416,416,100034,10,"Alberta",10,"AB",9,"Boreal Plains",16,"Alpac","Alpac",34,21,"Managed Forest",4891232.94142,57370437421.7
+417,417,100035,10,"Alberta",10,"AB",9,"Boreal Plains",19,"B11","B11",34,25,"Managed Forest",131995.025981,166389763.717
+418,418,100036,10,"Alberta",10,"AB",9,"Boreal Plains",20,"B9","B9",34,27,"Managed Forest",130191.430287,441454153.682
+419,419,100037,10,"Alberta",10,"AB",9,"Boreal Plains",22,"BO1","BO1",34,31,"Managed Forest",230827.765814,906302601.787
+420,420,100038,10,"Alberta",10,"AB",9,"Boreal Plains",23,"BO2","BO2",34,34,"Managed Forest",330986.964996,1837207692.27
+421,421,100039,10,"Alberta",10,"AB",9,"Boreal Plains",24,"BRL","BRL",34,35,"Managed Forest",739187.911323,6627288235.15
+422,422,100040,10,"Alberta",10,"AB",9,"Boreal Plains",26,"CFP","CFP",34,38,"Managed Forest",855270.629024,6373733706.07
+423,423,100041,10,"Alberta",10,"AB",9,"Boreal Plains",29,"DMI","DMI",34,46,"Managed Forest",2201072.27285,23627104165.4
+424,424,100042,10,"Alberta",10,"AB",9,"Boreal Plains",30,"E1","E1",34,47,"Managed Forest",272222.421672,94899739.7067
+425,425,100043,10,"Alberta",10,"AB",9,"Boreal Plains",32,"E11","E11",34,50,"Managed Forest",27051.4998398,8555266.3453
+426,426,100044,10,"Alberta",10,"AB",9,"Boreal Plains",33,"E2","E2",34,51,"Managed Forest",468936.329676,239312002.947
+427,427,100045,10,"Alberta",10,"AB",9,"Boreal Plains",34,"E3","E3",34,52,"Managed Forest",181087.261148,108755050.173
+428,428,100046,10,"Alberta",10,"AB",9,"Boreal Plains",35,"E4","E4",34,54,"Managed Forest",81793.7056559,52368495.7402
+429,429,100047,10,"Alberta",10,"AB",9,"Boreal Plains",37,"E6","E6",34,57,"Managed Forest",251039.693563,108844055.823
+430,430,100048,10,"Alberta",10,"AB",9,"Boreal Plains",38,"E7","E7",34,59,"Managed Forest",325777.456479,36482399.7741
+431,431,100049,10,"Alberta",10,"AB",9,"Boreal Plains",39,"E8FMU","E8FMU",34,61,"Managed Forest",253270.60154,765781796.407
+432,432,100050,10,"Alberta",10,"AB",9,"Boreal Plains",40,"E9","E9",34,63,"Managed Forest",75538.3071931,128332581.98
+433,433,100051,10,"Alberta",10,"AB",9,"Boreal Plains",42,"EO1","EO1",34,65,"Managed Forest",257826.330886,1075271870.3
+434,434,100052,10,"Alberta",10,"AB",9,"Boreal Plains",44,"F11","F11",34,68,"Managed Forest",716802.173576,3621870054.32
+435,435,100053,10,"Alberta",10,"AB",9,"Boreal Plains",47,"F23","F23",34,72,"Managed Forest",471830.220698,8421554831.63
+436,436,100054,10,"Alberta",10,"AB",9,"Boreal Plains",48,"F26","F26",34,74,"Managed Forest",90286.5606476,96419745.5893
+437,437,100055,10,"Alberta",10,"AB",9,"Boreal Plains",50,"FO1","FO1",34,78,"Managed Forest",892748.201208,4713714788.52
+438,438,100056,10,"Alberta",10,"AB",9,"Boreal Plains",51,"G10","G10",34,79,"Managed Forest",54957.1008989,72970638.0054
+439,439,100057,10,"Alberta",10,"AB",9,"Boreal Plains",52,"G11","G11",34,80,"Managed Forest",90737.5399615,169348732.229
+440,440,100058,10,"Alberta",10,"AB",9,"Boreal Plains",53,"G12","G12",34,81,"Managed Forest",366837.342145,414326313.148
+441,441,100059,10,"Alberta",10,"AB",9,"Boreal Plains",54,"G13","G13",34,82,"Managed Forest",100381.978606,251875961.715
+442,442,100060,10,"Alberta",10,"AB",9,"Boreal Plains",55,"G14","G14",34,83,"Managed Forest",207946.19763,466551432.734
+443,443,100061,10,"Alberta",10,"AB",9,"Boreal Plains",56,"G15","G15",34,84,"Managed Forest",543932.682895,142586431.652
+444,444,100062,10,"Alberta",10,"AB",9,"Boreal Plains",57,"G16","G16",34,86,"Managed Forest",426514.904426,230249111.897
+445,445,100063,10,"Alberta",10,"AB",9,"Boreal Plains",58,"G9","G9",34,87,"Managed Forest",180900.899346,271960289.814
+446,446,100064,10,"Alberta",10,"AB",9,"Boreal Plains",59,"GBETI","GBETI",34,88,"Managed Forest",395757.393857,2464383676.97
+447,447,100065,10,"Alberta",10,"AB",9,"Boreal Plains",60,"GO1","GO1",34,89,"Managed Forest",509496.426413,5729178709.37
+448,448,100066,10,"Alberta",10,"AB",9,"Boreal Plains",61,"GO2","GO2",34,90,"Managed Forest",311010.982914,1397966195.22
+449,449,100067,10,"Alberta",10,"AB",9,"Boreal Plains",62,"GO3","GO3",34,91,"Managed Forest",934079.293638,6329423284.58
+450,450,100068,10,"Alberta",10,"AB",9,"Boreal Plains",63,"GO4","GO4",34,92,"Managed Forest",578044.724009,2586931423.86
+451,451,100069,10,"Alberta",10,"AB",9,"Boreal Plains",64,"H1","H1",34,93,"Managed Forest",22141.2984385,25626829.0416
+452,452,100070,10,"Alberta",10,"AB",9,"Boreal Plains",65,"JASPER","JASPER",34,95,"Managed Forest",12514.910451,3335945.50448
+453,453,100071,10,"Alberta",10,"AB",9,"Boreal Plains",66,"L1","L1",34,96,"Managed Forest",245938.110583,784428746.893
+454,454,100072,10,"Alberta",10,"AB",9,"Boreal Plains",67,"L11","L11",34,97,"Managed Forest",242387.582574,412599731.495
+455,455,100073,10,"Alberta",10,"AB",9,"Boreal Plains",68,"L2","L2",34,98,"Managed Forest",135062.218195,308582431.408
+456,456,100074,10,"Alberta",10,"AB",9,"Boreal Plains",69,"L3","L3",34,99,"Managed Forest",289632.391922,1337582692.34
+457,457,100075,10,"Alberta",10,"AB",9,"Boreal Plains",71,"L9","L9",34,100,"Managed Forest",309523.565997,5388670967.17
+458,458,100076,10,"Alberta",10,"AB",9,"Boreal Plains",72,"LO1","LO1",34,102,"Managed Forest",1118796.27706,24306741412
+459,459,100077,10,"Alberta",10,"AB",9,"Boreal Plains",73,"M1","M1",34,104,"Managed Forest",216211.178207,1506419102.3
+460,460,100078,10,"Alberta",10,"AB",9,"Boreal Plains",74,"M10","M10",34,105,"Managed Forest",88452.3512872,385802056.485
+461,461,100079,10,"Alberta",10,"AB",9,"Boreal Plains",75,"M3","M3",34,106,"Managed Forest",215391.092118,1702997793.19
+462,462,100080,10,"Alberta",10,"AB",9,"Boreal Plains",76,"M4","M4",34,107,"Managed Forest",90119.2369879,333695837.115
+463,463,100081,10,"Alberta",10,"AB",9,"Boreal Plains",77,"M7","M7",34,108,"Managed Forest",142163.177349,810331958.724
+464,464,100082,10,"Alberta",10,"AB",9,"Boreal Plains",78,"M9","M9",34,109,"Managed Forest",85730.3822555,257432347.522
+465,465,100083,10,"Alberta",10,"AB",9,"Boreal Plains",79,"MDFP","MDFP",34,111,"Managed Forest",655631.711785,5082994174.16
+466,466,100084,10,"Alberta",10,"AB",9,"Boreal Plains",80,"MH","MH",34,112,"Managed Forest",816295.70182,7066945589.5
+467,467,100085,10,"Alberta",10,"AB",9,"Boreal Plains",81,"MWFP","MWFP",34,113,"Managed Forest",1029861.61005,4432987339.58
+468,468,100086,10,"Alberta",10,"AB",9,"Boreal Plains",82,"P13","P13",34,114,"Managed Forest",223719.245941,208623278.114
+469,469,100087,10,"Alberta",10,"AB",9,"Boreal Plains",83,"P14","P14",34,116,"Managed Forest",572899.724318,1272619404.54
+470,470,100088,10,"Alberta",10,"AB",9,"Boreal Plains",84,"P15","P15",34,117,"Managed Forest",657214.556836,10023647793.3
+471,471,100089,10,"Alberta",10,"AB",9,"Boreal Plains",86,"P3","P3",34,118,"Managed Forest",40194.0416765,58685586.8821
+472,472,100090,10,"Alberta",10,"AB",9,"Boreal Plains",87,"P4","P4",34,119,"Managed Forest",218385.872077,226560389.964
+473,473,100091,10,"Alberta",10,"AB",9,"Boreal Plains",88,"P5","P5",34,120,"Managed Forest",162899.737976,106907487.605
+474,474,100092,10,"Alberta",10,"AB",9,"Boreal Plains",89,"PO1","PO1",34,121,"Managed Forest",376925.007465,4208782382.17
+475,475,100093,10,"Alberta",10,"AB",9,"Boreal Plains",90,"PO2","PO2",34,122,"Managed Forest",545773.410662,5433231674.26
+476,476,100094,10,"Alberta",10,"AB",9,"Boreal Plains",91,"PO3","PO3",34,124,"Managed Forest",886121.054799,6638018061.56
+477,477,100095,10,"Alberta",10,"AB",9,"Boreal Plains",92,"R10","R10",34,125,"Managed Forest",446483.686899,339209566.694
+478,478,100096,10,"Alberta",10,"AB",9,"Boreal Plains",93,"R11","R11",34,127,"Managed Forest",393326.561467,1061526966.66
+479,479,100097,10,"Alberta",10,"AB",9,"Boreal Plains",94,"R12","R12",34,129,"Managed Forest",992978.00971,591784855.781
+480,480,100098,10,"Alberta",10,"AB",9,"Boreal Plains",95,"R13","R13",34,130,"Managed Forest",233301.081694,23614490.2557
+481,481,100099,10,"Alberta",10,"AB",9,"Boreal Plains",96,"R14","R14",34,131,"Managed Forest",69644.7720667,211268121.318
+482,482,100100,10,"Alberta",10,"AB",9,"Boreal Plains",97,"RO1","RO1",34,133,"Managed Forest",745274.346675,9395403387.17
+483,483,100101,10,"Alberta",10,"AB",9,"Boreal Plains",99,"S10","S10",34,134,"Managed Forest",274201.464503,4084882259.33
+484,484,100102,10,"Alberta",10,"AB",9,"Boreal Plains",100,"S11","S11",34,135,"Managed Forest",217439.039045,356762316.693
+485,485,100103,10,"Alberta",10,"AB",9,"Boreal Plains",101,"S14","S14",34,136,"Managed Forest",253542.386837,3642705804.3
+486,486,100104,10,"Alberta",10,"AB",9,"Boreal Plains",102,"S15","S15",34,137,"Managed Forest",49554.3930123,42382720.1527
+487,487,100105,10,"Alberta",10,"AB",9,"Boreal Plains",103,"S16","S16",34,138,"Managed Forest",192069.952265,200898548.587
+488,488,100106,10,"Alberta",10,"AB",9,"Boreal Plains",104,"S17","S17",34,139,"Managed Forest",312327.597693,214931783.087
+489,489,100107,10,"Alberta",10,"AB",9,"Boreal Plains",105,"S18","S18",34,140,"Managed Forest",390752.753992,1781915149.2
+490,490,100108,10,"Alberta",10,"AB",9,"Boreal Plains",106,"S19","S19",34,141,"Managed Forest",359759.871697,1428831332.55
+491,491,100109,10,"Alberta",10,"AB",9,"Boreal Plains",108,"S20","S20",34,142,"Managed Forest",556547.643827,287237597.34
+492,492,100110,10,"Alberta",10,"AB",9,"Boreal Plains",109,"S21","S21",34,143,"Managed Forest",52654.9907736,16745172.2517
+493,493,100111,10,"Alberta",10,"AB",9,"Boreal Plains",110,"S22","S22",34,144,"Managed Forest",221653.364087,985693271.454
+494,494,100112,10,"Alberta",10,"AB",9,"Boreal Plains",112,"S7","S7",34,145,"Managed Forest",345462.099316,657459270.383
+495,495,100113,10,"Alberta",10,"AB",9,"Boreal Plains",113,"SFP","SFP",34,147,"Managed Forest",855245.289306,5534417845.67
+496,496,100114,10,"Alberta",10,"AB",9,"Boreal Plains",114,"SLP","SLP",34,148,"Managed Forest",892530.258136,6306698562.39
+497,497,100115,10,"Alberta",10,"AB",9,"Boreal Plains",115,"SLS","SLS",34,151,"Managed Forest",490254.210348,1656265017.18
+498,498,100116,10,"Alberta",10,"AB",9,"Boreal Plains",117,"SO1","SO1",34,154,"Managed Forest",602828.955918,4606061879.96
+499,499,100117,10,"Alberta",10,"AB",9,"Boreal Plains",118,"SO2","SO2",34,155,"Managed Forest",834918.255978,5989161194.64
+500,500,100118,10,"Alberta",10,"AB",9,"Boreal Plains",116,"SnDnc","SnDnc",34,153,"Managed Forest",597330.067893,2617080474.9
+501,501,100119,10,"Alberta",10,"AB",9,"Boreal Plains",119,"ToFFP","ToFFP",34,157,"Managed Forest",1214554.18952,11257054335.6
+502,502,100120,10,"Alberta",10,"AB",9,"Boreal Plains",120,"TolHP","TolHP",34,158,"Managed Forest",687527.933353,2728833439.77
+503,503,100121,10,"Alberta",10,"AB",9,"Boreal Plains",121,"Van","Van",34,159,"Managed Forest",235388.0993,560475556.988
+504,504,100122,10,"Alberta",10,"AB",9,"Boreal Plains",122,"W11","W11",34,160,"Managed Forest",205071.721087,142539129.638
+505,505,100123,10,"Alberta",10,"AB",9,"Boreal Plains",123,"W13","W13",34,161,"Managed Forest",480472.560062,211920061.647
+506,506,100124,10,"Alberta",10,"AB",9,"Boreal Plains",124,"W14","W14",34,162,"Managed Forest",392030.261902,65725226.4572
+507,507,100125,10,"Alberta",10,"AB",9,"Boreal Plains",125,"W15","W15",34,163,"Managed Forest",103620.83137,50815874.4266
+508,508,100126,10,"Alberta",10,"AB",9,"Boreal Plains",126,"W5","W5",34,164,"Managed Forest",330714.907969,210705884.905
+509,509,100127,10,"Alberta",10,"AB",9,"Boreal Plains",127,"W6","W6",34,165,"Managed Forest",148091.790807,66738141.1227
+510,510,100128,10,"Alberta",10,"AB",9,"Boreal Plains",133,"WO1","WO1",34,174,"Managed Forest",509513.498665,1656828366.05
+511,511,100129,10,"Alberta",10,"AB",9,"Boreal Plains",134,"WO2","WO2",34,176,"Managed Forest",770836.31342,9335712681.21
+512,512,100130,10,"Alberta",10,"AB",9,"Boreal Plains",135,"WO3","WO3",34,177,"Managed Forest",74896.112124,137667894.973
+513,513,100131,10,"Alberta",10,"AB",9,"Boreal Plains",136,"WOOD BUFFALO","WOOD BUFFALO",34,181,"Managed Forest",932327.671595,26337866916.1
+514,514,100132,10,"Alberta",10,"AB",9,"Boreal Plains",129,"West Fraser Mills Ltd. (Hinton)","West Fraser Mills Ltd. (Hinton)",34,168,"Managed Forest",1332585.70681,8489954413.1
+515,515,100133,10,"Alberta",10,"AB",9,"Boreal Plains",130,"WeyDV","WeyDV",34,170,"Managed Forest",1197247.20765,4524285461.54
+516,516,100134,10,"Alberta",10,"AB",9,"Boreal Plains",131,"WeyEd","WeyEd",34,171,"Managed Forest",1456806.35646,4846715049.6
+517,517,100135,10,"Alberta",10,"AB",9,"Boreal Plains",132,"WeyGP","WeyGP",34,173,"Managed Forest",1178996.22455,9197512744.44
+518,518,100136,10,"Alberta",10,"AB",10,"Subhumid Prairies",5,"35","35",35,4,"Managed Forest",2033180.89607,55449369627.6
+519,519,100137,10,"Alberta",10,"AB",10,"Subhumid Prairies",22,"BO1","BO1",35,29,"Managed Forest",310660.442023,2670572004.33
+520,520,100138,10,"Alberta",10,"AB",10,"Subhumid Prairies",23,"BO2","BO2",35,32,"Managed Forest",318521.139199,3158241434.91
+521,521,100139,10,"Alberta",10,"AB",10,"Subhumid Prairies",27,"CO1","CO1",35,39,"Managed Forest",268424.046486,2501626824.09
+522,522,100140,10,"Alberta",10,"AB",10,"Subhumid Prairies",28,"CO2","CO2",35,42,"Managed Forest",401619.683926,2888417323.57
+523,523,100141,10,"Alberta",10,"AB",10,"Subhumid Prairies",41,"ELK ISLAND","ELK ISLAND",35,64,"Managed Forest",67996.8684639,194141396.887
+524,524,100142,10,"Alberta",10,"AB",10,"Subhumid Prairies",49,"FMUC5","FMUC5",35,75,"Managed Forest",107414.281619,65207882.0488
+525,525,100143,10,"Alberta",10,"AB",10,"Subhumid Prairies",72,"LO1","LO1",35,101,"Managed Forest",321506.943166,1501105517.6
+526,526,100144,10,"Alberta",10,"AB",10,"Subhumid Prairies",97,"RO1","RO1",35,132,"Managed Forest",542155.971114,3902037357.17
+527,527,100145,10,"Alberta",10,"AB",10,"Subhumid Prairies",115,"SLS","SLS",35,149,"Managed Forest",32091.4197623,28925272.5369
+528,528,100146,10,"Alberta",10,"AB",10,"Subhumid Prairies",134,"WO2","WO2",35,175,"Managed Forest",244178.54459,1823852049.61
+529,529,100147,10,"Alberta",10,"AB",14,"Montane Cordillera",6,"36","36",36,5,"Managed Forest",1934003.07639,6849940739.57
+530,530,100148,10,"Alberta",10,"AB",14,"Montane Cordillera",17,"ANC","ANC",36,22,"Managed Forest",127966.237555,205807519.516
+531,531,100149,10,"Alberta",10,"AB",14,"Montane Cordillera",19,"B11","B11",36,24,"Managed Forest",742810.552435,2250364776.82
+532,532,100150,10,"Alberta",10,"AB",14,"Montane Cordillera",20,"B9","B9",36,26,"Managed Forest",86567.5873679,70672773.2022
+533,533,100151,10,"Alberta",10,"AB",14,"Montane Cordillera",21,"BANFF","BANFF",36,28,"Managed Forest",743704.904711,6832732344.58
+534,534,100152,10,"Alberta",10,"AB",14,"Montane Cordillera",22,"BO1","BO1",36,30,"Managed Forest",184208.740185,336534378.69
+535,535,100153,10,"Alberta",10,"AB",14,"Montane Cordillera",23,"BO2","BO2",36,33,"Managed Forest",228022.845464,579338109.72
+536,536,100154,10,"Alberta",10,"AB",14,"Montane Cordillera",25,"C4","C4",36,36,"Managed Forest",26372.7478063,26220897.2936
+537,537,100155,10,"Alberta",10,"AB",14,"Montane Cordillera",26,"CFP","CFP",36,37,"Managed Forest",50037.8178454,91565437.7879
+538,538,100156,10,"Alberta",10,"AB",14,"Montane Cordillera",27,"CO1","CO1",36,40,"Managed Forest",327337.365693,935280802.117
+539,539,100157,10,"Alberta",10,"AB",14,"Montane Cordillera",28,"CO2","CO2",36,43,"Managed Forest",491505.25396,782979336.318
+540,540,100158,10,"Alberta",10,"AB",14,"Montane Cordillera",31,"E10","E10",36,48,"Managed Forest",154760.882393,649543958.626
+541,541,100159,10,"Alberta",10,"AB",14,"Montane Cordillera",32,"E11","E11",36,49,"Managed Forest",252782.085898,450404302.809
+542,542,100160,10,"Alberta",10,"AB",14,"Montane Cordillera",35,"E4","E4",36,53,"Managed Forest",178238.010682,384476104.128
+543,543,100161,10,"Alberta",10,"AB",14,"Montane Cordillera",36,"E5","E5",36,55,"Managed Forest",185494.026626,540695966.955
+544,544,100162,10,"Alberta",10,"AB",14,"Montane Cordillera",37,"E6","E6",36,56,"Managed Forest",47220.1096998,30508034.2592
+545,545,100163,10,"Alberta",10,"AB",14,"Montane Cordillera",38,"E7","E7",36,58,"Managed Forest",847.039445804,36664.6421755
+546,546,100164,10,"Alberta",10,"AB",14,"Montane Cordillera",39,"E8FMU","E8FMU",36,60,"Managed Forest",356292.378819,1431642567.53
+547,547,100165,10,"Alberta",10,"AB",14,"Montane Cordillera",40,"E9","E9",36,62,"Managed Forest",3212.91909363,414868.902962
+548,548,100166,10,"Alberta",10,"AB",14,"Montane Cordillera",49,"FMUC5","FMUC5",36,76,"Managed Forest",684734.58025,3452577855.59
+549,549,100167,10,"Alberta",10,"AB",14,"Montane Cordillera",57,"G16","G16",36,85,"Managed Forest",241420.246675,382681785.838
+550,550,100168,10,"Alberta",10,"AB",14,"Montane Cordillera",65,"JASPER","JASPER",36,94,"Managed Forest",938607.526101,11217083216
+551,551,100169,10,"Alberta",10,"AB",14,"Montane Cordillera",93,"R11","R11",36,126,"Managed Forest",594097.251179,4159957413.54
+552,552,100170,10,"Alberta",10,"AB",14,"Montane Cordillera",94,"R12","R12",36,128,"Managed Forest",56931.2527407,30714993.1208
+553,553,100171,10,"Alberta",10,"AB",14,"Montane Cordillera",113,"SFP","SFP",36,146,"Managed Forest",22299.646785,8825107.66151
+554,554,100172,10,"Alberta",10,"AB",14,"Montane Cordillera",115,"SLS","SLS",36,150,"Managed Forest",530666.092302,1180275253.56
+555,555,100173,10,"Alberta",10,"AB",14,"Montane Cordillera",116,"SnDnc","SnDnc",36,152,"Managed Forest",42713.8590692,43959700.1807
+556,556,100174,10,"Alberta",10,"AB",14,"Montane Cordillera",128,"WATERTON LAKES","WATERTON LAKES",36,166,"Managed Forest",133447.953232,499482287.223
+557,557,100175,10,"Alberta",10,"AB",14,"Montane Cordillera",129,"West Fraser Mills Ltd. (Hinton)","West Fraser Mills Ltd. (Hinton)",36,167,"Managed Forest",582134.547784,1406342330.63
+558,558,100176,10,"Alberta",10,"AB",14,"Montane Cordillera",130,"WeyDV","WeyDV",36,169,"Managed Forest",171614.17643,193289983.465
+559,559,100177,10,"Alberta",10,"AB",14,"Montane Cordillera",132,"WeyGP","WeyGP",36,172,"Managed Forest",410083.609062,1983040603.56
+560,560,100178,10,"Alberta",10,"AB",18,"Semiarid Prairies",7,"37","37",37,6,"Managed Forest",1405712.43362,81182298567.7
+561,561,100179,10,"Alberta",10,"AB",18,"Semiarid Prairies",27,"CO1","CO1",37,41,"Managed Forest",180876.58835,323110098.136
+562,562,100180,10,"Alberta",10,"AB",18,"Semiarid Prairies",28,"CO2","CO2",37,44,"Managed Forest",188027.570008,610945835.945
+563,563,110001,11,"British Columbia",111,"BCB",4,"Taiga Plains",40,"40_Fort St. John","40_Fort St. John",38,7,"Managed Forest",767912.4296,13621709853.2
+564,564,110002,11,"British Columbia",111,"BCB",4,"Taiga Plains",8,"08_Fort Nelson","08_Fort Nelson",38,2,"Managed Forest",1973919.84047,54167045958.1
+565,565,110003,11,"British Columbia",111,"BCB",9,"Boreal Plains",41,"41_Dawson Creek","41_Dawson Creek",39,10,"Managed Forest",957962.317388,13666396858.1
+566,566,110004,11,"British Columbia",111,"BCB",9,"Boreal Plains",40,"40_Fort St. John","40_Fort St. John",39,8,"Managed Forest",854772.568502,25031407090.8
+567,567,110005,11,"British Columbia",111,"BCB",9,"Boreal Plains",8,"08_Fort Nelson","08_Fort Nelson",39,3,"Managed Forest",15366.9052787,5411552.81554
+568,568,110006,11,"British Columbia",111,"BCB",12,"Boreal Cordillera",243,"24dja_Fort St. James","24dja_Fort St. James",40,6,"Managed Forest",559810.636949,1331204481.22
+569,569,110007,11,"British Columbia",111,"BCB",12,"Boreal Cordillera",16,"16_Mackenzie","16_Mackenzie",40,5,"Managed Forest",1550121.33877,35617377915.9
+570,570,110008,11,"British Columbia",111,"BCB",12,"Boreal Cordillera",4,"04_Cassiar","04_Cassiar",40,1,"Managed Forest",2799633.02942,106487632579
+571,571,110009,11,"British Columbia",111,"BCB",12,"Boreal Cordillera",40,"40_Fort St. John","40_Fort St. John",40,9,"Managed Forest",430286.954732,4681673817.98
+572,572,110010,11,"British Columbia",111,"BCB",12,"Boreal Cordillera",8,"08_Fort Nelson","08_Fort Nelson",40,4,"Managed Forest",1686418.72775,44493514268.2
+573,573,110011,11,"British Columbia",112,"BCP",13,"Pacific Maritime",38,"38_Arrowsmith","38_Arrowsmith",41,16,"Managed Forest",2538186.7081,15252344405.3
+574,574,110012,11,"British Columbia",112,"BCP",13,"Pacific Maritime",30,"30_Fraser","30_Fraser",41,12,"Managed Forest",1010868.30869,12931452663.9
+575,575,110013,11,"British Columbia",112,"BCP",13,"Pacific Maritime",18,"18_Merritt","18_Merritt",41,6,"Managed Forest",8029.23902666,654826.822851
+576,576,110014,11,"British Columbia",112,"BCP",13,"Pacific Maritime",39,"39_Sunshine Coast","39_Sunshine Coast",41,17,"Managed Forest",2525793.45188,15456684963.3
+577,577,110015,11,"British Columbia",112,"BCP",13,"Pacific Maritime",31,"31_Soo","31_Soo",41,13,"Managed Forest",1044161.55694,10901846954
+578,578,110016,11,"British Columbia",112,"BCP",13,"Pacific Maritime",37,"37_Strathcona","37_Strathcona",41,15,"Managed Forest",2712960.2557,14728468500.5
+579,579,110017,11,"British Columbia",112,"BCP",13,"Pacific Maritime",33,"33_Kingcome","33_Kingcome",41,14,"Managed Forest",4020293.71629,18746369547.6
+580,580,110018,11,"British Columbia",112,"BCP",13,"Pacific Maritime",15,"15_Lillooet","15_Lillooet",41,5,"Managed Forest",376371.553905,102799304.942
+581,581,110019,11,"British Columbia",112,"BCP",13,"Pacific Maritime",293,"29_Chilcotin","29_Chilcotin",41,11,"Managed Forest",274566.230135,1557375511.48
+582,582,110020,11,"British Columbia",112,"BCP",13,"Pacific Maritime",19,"19_Mid Coast","19_Mid Coast",41,7,"Managed Forest",5040133.32816,24945688927.1
+583,583,110021,11,"British Columbia",112,"BCP",13,"Pacific Maritime",21,"21_North Coast","21_North Coast",41,9,"Managed Forest",5619108.16317,20917806884.2
+584,584,110022,11,"British Columbia",112,"BCP",13,"Pacific Maritime",10,"10_Kalum","10_Kalum",41,3,"Managed Forest",2169271.04243,22421531340.4
+585,585,110023,11,"British Columbia",112,"BCP",13,"Pacific Maritime",20,"20_Morice","20_Morice",41,8,"Managed Forest",461480.937368,2282178744.93
+586,586,110024,11,"British Columbia",112,"BCP",13,"Pacific Maritime",3,"03_Bulkley","03_Bulkley",41,1,"Managed Forest",346566.931331,1106103746.03
+587,587,110025,11,"British Columbia",112,"BCP",13,"Pacific Maritime",12,"12_Kispiox","12_Kispiox",41,4,"Managed Forest",595720.489558,5298527028.53
+588,588,110026,11,"British Columbia",112,"BCP",13,"Pacific Maritime",25,"25_Queen Charlotte","25_Queen Charlotte",41,10,"Managed Forest",2728200.91083,10048994610.7
+589,589,110027,11,"British Columbia",112,"BCP",13,"Pacific Maritime",42,"42_Cranberry","42_Cranberry",41,18,"Managed Forest",171931.256023,761597112.093
+590,590,110028,11,"British Columbia",112,"BCP",13,"Pacific Maritime",43,"43_Nass","43_Nass",41,19,"Managed Forest",777809.512126,7984881688.37
+591,591,110029,11,"British Columbia",112,"BCP",13,"Pacific Maritime",4,"04_Cassiar","04_Cassiar",41,2,"Managed Forest",1777126.83652,19021309410.1
+592,592,110030,11,"British Columbia",115,"BCMS",14,"Montane Cordillera",30,"30_Fraser","30_Fraser",42,20,"Managed Forest",624452.406273,2562363710.75
+593,593,110031,11,"British Columbia",115,"BCMS",14,"Montane Cordillera",18,"18_Merritt","18_Merritt",42,11,"Managed Forest",906932.903129,11310967575.2
+594,594,110032,11,"British Columbia",115,"BCMS",14,"Montane Cordillera",222,"22_PentictonOffice","22_PentictonOffice",42,13,"Managed Forest",778877.382763,9302782118.11
+595,595,110033,11,"British Columbia",115,"BCMS",14,"Montane Cordillera",2,"02_Boundary","02_Boundary",42,2,"Managed Forest",459805.411572,6589963371.66
+596,596,110034,11,"British Columbia",115,"BCMS",14,"Montane Cordillera",1,"01_Arrow","01_Arrow",42,1,"Managed Forest",1003109.61662,13890729491.8
+597,597,110035,11,"British Columbia",115,"BCMS",14,"Montane Cordillera",13,"13_Kootenay Lake","13_Kootenay Lake",42,8,"Managed Forest",1063847.0372,12408365662.1
+598,598,110036,11,"British Columbia",115,"BCMS",14,"Montane Cordillera",5,"05_Cranbrook","05_Cranbrook",42,3,"Managed Forest",942066.59091,14846907212.7
+599,599,110037,11,"British Columbia",115,"BCMS",14,"Montane Cordillera",33,"33_Kingcome","33_Kingcome",42,21,"Managed Forest",158103.144625,326907752.733
+600,600,110038,11,"British Columbia",115,"BCMS",14,"Montane Cordillera",15,"15_Lillooet","15_Lillooet",42,9,"Managed Forest",850060.007679,11148826744.1
+601,601,110039,11,"British Columbia",115,"BCMS",14,"Montane Cordillera",223,"22_VernonDistrict","22_VernonDistrict",42,14,"Managed Forest",699924.727753,8108984246.28
+602,602,110040,11,"British Columbia",115,"BCMS",14,"Montane Cordillera",9,"09_Invermere","09_Invermere",42,5,"Managed Forest",862306.230781,13154423591.5
+603,603,110041,11,"British Columbia",115,"BCMS",14,"Montane Cordillera",112,"11_KamloopsDistrict","11_KamloopsDistrict",42,7,"Managed Forest",927959.153768,13136485990.2
+604,604,110042,11,"British Columbia",115,"BCMS",14,"Montane Cordillera",221,"22_SalmonArmOffice","22_SalmonArmOffice",42,12,"Managed Forest",576688.139444,7079711122.87
+605,605,110043,11,"British Columbia",115,"BCMS",14,"Montane Cordillera",27,"27_Revelstoke","27_Revelstoke",42,16,"Managed Forest",727144.865748,8334438719.1
+606,606,110044,11,"British Columbia",115,"BCMS",14,"Montane Cordillera",293,"29_Chilcotin","29_Chilcotin",42,19,"Managed Forest",1092282.02016,27208588682.1
+607,607,110045,11,"British Columbia",115,"BCMS",14,"Montane Cordillera",23,"23_100 Mile House","23_100 Mile House",42,15,"Managed Forest",745760.658323,12360137174.6
+608,608,110046,11,"British Columbia",115,"BCMS",14,"Montane Cordillera",292,"29_WilliamsLake","29_WilliamsLake",42,18,"Managed Forest",924987.466725,12503909332.7
+609,609,110047,11,"British Columbia",115,"BCMS",14,"Montane Cordillera",7,"07_Golden","07_Golden",42,4,"Managed Forest",977976.1036,13105063952.8
+610,610,110048,11,"British Columbia",115,"BCMS",14,"Montane Cordillera",111,"11_ClearwaterDistrict","11_ClearwaterDistrict",42,6,"Managed Forest",888809.029994,14558152260.1
+611,611,110049,11,"British Columbia",113,"BCMN",14,"Montane Cordillera",19,"19_Mid Coast","19_Mid Coast",42,7,"Managed Forest",647456.86914,4717303667.15
+612,612,110050,11,"British Columbia",115,"BCMS",14,"Montane Cordillera",291,"29_Horsefly","29_Horsefly",42,17,"Managed Forest",635252.864969,8130211685.92
+613,613,110051,11,"British Columbia",115,"BCMS",14,"Montane Cordillera",17,"17_Robson Valley","17_Robson Valley",42,10,"Managed Forest",959480.454153,14585976654.6
+614,614,110052,11,"British Columbia",113,"BCMN",14,"Montane Cordillera",26,"26_Quesnel","26_Quesnel",42,12,"Managed Forest",1337028.06364,20772329485.4
+615,615,110053,11,"British Columbia",113,"BCMN",14,"Montane Cordillera",14,"14_Lakes","14_Lakes",42,5,"Managed Forest",1252544.08828,15773632997.2
+616,616,110054,11,"British Columbia",113,"BCMN",14,"Montane Cordillera",241,"24dva_Vanderhoof","24dva_Vanderhoof",42,9,"Managed Forest",981823.856875,13879732261.3
+617,617,110055,11,"British Columbia",113,"BCMN",14,"Montane Cordillera",10,"10_Kalum","10_Kalum",42,3,"Managed Forest",60796.0744543,34789542.7076
+618,618,110056,11,"British Columbia",113,"BCMN",14,"Montane Cordillera",242,"24dpg_Prince George","24dpg_Prince George",42,10,"Managed Forest",1712952.6877,33967070698.3
+619,619,110057,11,"British Columbia",113,"BCMN",14,"Montane Cordillera",20,"20_Morice","20_Morice",42,8,"Managed Forest",1107442.64085,12734920870.2
+620,620,110058,11,"British Columbia",113,"BCMN",14,"Montane Cordillera",243,"24dja_Fort St. James","24dja_Fort St. James",42,11,"Managed Forest",1972029.89113,30477575111.4
+621,621,110059,11,"British Columbia",113,"BCMN",14,"Montane Cordillera",41,"41_Dawson Creek","41_Dawson Creek",42,14,"Managed Forest",1314867.57032,16232786768.7
+622,622,110060,11,"British Columbia",113,"BCMN",14,"Montane Cordillera",3,"03_Bulkley","03_Bulkley",42,1,"Managed Forest",778790.393666,6521235858.58
+623,623,110061,11,"British Columbia",113,"BCMN",14,"Montane Cordillera",12,"12_Kispiox","12_Kispiox",42,4,"Managed Forest",569901.841407,6949769972.48
+624,624,110062,11,"British Columbia",113,"BCMN",14,"Montane Cordillera",16,"16_Mackenzie","16_Mackenzie",42,6,"Managed Forest",1471196.31074,28489272475.4
+625,625,110063,11,"British Columbia",113,"BCMN",14,"Montane Cordillera",43,"43_Nass","43_Nass",42,15,"Managed Forest",772646.668517,9127726978.63
+626,626,110064,11,"British Columbia",113,"BCMN",14,"Montane Cordillera",4,"04_Cassiar","04_Cassiar",42,2,"Managed Forest",682583.368198,5812076939.41
+627,627,110065,11,"British Columbia",113,"BCMN",14,"Montane Cordillera",40,"40_Fort St. John","40_Fort St. John",42,13,"Managed Forest",449791.895058,3430810941.93
+628,628,120001,12,"Yukon",12,"YT",12,"Boreal Cordillera",1,"CA Plan area","CA Plan area",46,45,"Managed Forest",677794.326321,10519028071.2
+629,629,120002,12,"Yukon",12,"YT",12,"Boreal Cordillera",2,"Fire Zone 2","Fire Zone 2",46,46,"Managed Forest",2730433.55205,13870963247.9
+630,630,120003,12,"Yukon",12,"YT",12,"Boreal Cordillera",3,"Fire Zone 4","Fire Zone 4",46,47,"Managed Forest",6050610.08792,39966359217.7
+631,631,120004,12,"Yukon",12,"YT",12,"Boreal Cordillera",4,"Game Sanctuary North","Game Sanctuary North",46,48,"Managed Forest",116641.44311,580970127.478
+632,632,120005,12,"Yukon",12,"YT",12,"Boreal Cordillera",5,"Game Sanctuary South","Game Sanctuary South",46,49,"Managed Forest",107026.668846,561285850.756
+633,633,120006,12,"Yukon",12,"YT",12,"Boreal Cordillera",6,"Kaska Plan Area","Kaska Plan Area",46,50,"Managed Forest",2660453.25445,81346950103.8
+634,634,120007,12,"Yukon",12,"YT",12,"Boreal Cordillera",7,"Kluane National Park","Kluane National Park",46,51,"Managed Forest",666767.759852,18013520611.2
+635,635,120009,12,"Yukon",12,"YT",12,"Boreal Cordillera",8,"Teslin Plan Area","Teslin Plan Area",46,53,"Managed Forest",660661.624555,19898263119.5
+636,636,120010,12,"Yukon",12,"YT",13,"Pacific Maritime",7,"Kluane National Park","Kluane National Park",47,54,"Managed Forest",278277.531098,4187314737.88
+637,637,120013,12,"Yukon",12,"YT",11,"Taiga Cordillera",2,"Fire Zone 2","Fire Zone 2",45,57,"Managed Forest",39069.3676928,100411457.078
+638,638,120014,12,"Yukon",12,"YT",11,"Taiga Cordillera",3,"Fire Zone 4","Fire Zone 4",45,58,"Managed Forest",492400.061304,934526595.015
+639,639,120016,12,"Yukon",12,"YT",11,"Taiga Cordillera",6,"Kaska Plan Area","Kaska Plan Area",45,60,"Managed Forest",1853228.4924,29100092015.6
+640,640,120019,12,"Yukon",12,"YT",4,"Taiga Plains",6,"Kaska Plan Area","Kaska Plan Area",44,63,"Managed Forest",140914.560704,713643832.528
+641,641,130002,13,"Northwest Territories",13,"NWT",12,"Boreal Cordillera",16,"LIARD","LIARD70",54,120,"Managed Forest",595399.791311,1185810533.84
+642,642,130003,13,"Northwest Territories",13,"NWT",12,"Boreal Cordillera",19,"Nahanni National Park Reserve of Canada","Nahanni National Park",54,121,"Managed Forest",20472.9211642,16867950.6395
+643,643,130004,13,"Northwest Territories",13,"NWT",9,"Boreal Plains",4,"BUFFALO RIVER","BUFFALO RIVER",52,122,"Managed Forest",214836.318166,2262369003.52
+644,644,130006,13,"Northwest Territories",13,"NWT",9,"Boreal Plains",6,"BufferCommunity50km","50km Community Buffer",52,124,"Managed Forest",448542.567725,1367964497.05
+645,645,130008,13,"Northwest Territories",13,"NWT",9,"Boreal Plains",18,"NORTH SLAVE","NORTH SLAVE",52,126,"Managed Forest",323880.087969,4618568300.43
+646,646,130010,13,"Northwest Territories",13,"NWT",9,"Boreal Plains",22,"SOUTH SLAVE","SOUTH SLAVE",52,128,"Managed Forest",342245.040029,3764158612.2
+647,647,130011,13,"Northwest Territories",13,"NWT",9,"Boreal Plains",26,"Wood Buffalo National Park of Canada","Wood Buffalo",52,129,"Managed Forest",321563.98129,3623940047.81
+648,648,130019,13,"Northwest Territories",13,"NWT",11,"Taiga Cordillera",19,"Nahanni National Park Reserve of Canada","Nahanni National Park",53,137,"Managed Forest",155168.560141,725913994.35
+649,649,130021,13,"Northwest Territories",13,"NWT",11,"Taiga Cordillera",21,"SAHTU","SAHTU",53,139,"Managed Forest",941878.571843,1679845760.76
+650,650,130022,13,"Northwest Territories",13,"NWT",4,"Taiga Plains",1,"ANDERSON LANDING","dont know",50,140,"Managed Forest",192065.89426,698242570.616
+651,651,130023,13,"Northwest Territories",13,"NWT",4,"Taiga Plains",2,"ARCTIC RED","Arctic Red River",50,141,"Managed Forest",151647.729738,706939781.334
+652,652,130024,13,"Northwest Territories",13,"NWT",4,"Taiga Plains",4,"BUFFALO RIVER","BUFFALO RIVER",50,142,"Managed Forest",750780.074161,6246261202.44
+653,653,130026,13,"Northwest Territories",13,"NWT",4,"Taiga Plains",6,"BufferCommunity50km","50km Community Buffer",50,144,"Managed Forest",13248260.2059,120410418321
+654,654,130028,13,"Northwest Territories",13,"NWT",4,"Taiga Plains",8,"CAMERON HILLS","CAMERON HILLS",50,146,"Managed Forest",197983.651496,773874270.396
+655,655,130030,13,"Northwest Territories",13,"NWT",4,"Taiga Plains",10,"FORT PROVIDENCE","Ft Providence",50,148,"Managed Forest",278827.64259,4086618951.63
+656,656,130032,13,"Northwest Territories",13,"NWT",4,"Taiga Plains",12,"GWICHIN","GWICHIN",50,150,"Managed Forest",3028649.74849,18998121437.7
+657,657,130034,13,"Northwest Territories",13,"NWT",4,"Taiga Plains",14,"IFA","IFA",50,152,"Managed Forest",714294.1273,3240343697.97
+658,658,130035,13,"Northwest Territories",13,"NWT",4,"Taiga Plains",15,"JMR","JMR",50,153,"Managed Forest",330025.203437,4025031785.69
+659,659,130036,13,"Northwest Territories",13,"NWT",4,"Taiga Plains",16,"LIARD","LIARD70",50,154,"Managed Forest",477420.522679,11821646214.2
+660,660,130037,13,"Northwest Territories",13,"NWT",4,"Taiga Plains",17,"MCPHERSON","Ft McPherson",50,155,"Managed Forest",395823.354671,3099030258.73
+661,661,130038,13,"Northwest Territories",13,"NWT",4,"Taiga Plains",18,"NORTH SLAVE","NORTH SLAVE",50,156,"Managed Forest",90173.1506399,53172416.3865
+662,662,130039,13,"Northwest Territories",13,"NWT",4,"Taiga Plains",19,"Nahanni National Park Reserve of Canada","Nahanni National Park",50,157,"Managed Forest",568459.263229,3957188865.92
+663,663,130041,13,"Northwest Territories",13,"NWT",4,"Taiga Plains",21,"SAHTU","SAHTU",50,159,"Managed Forest",10454724.7123,35103610532.8
+664,664,130042,13,"Northwest Territories",13,"NWT",4,"Taiga Plains",23,"TLICHO","TLICHO",50,160,"Managed Forest",1188031.57187,10496295294.2
+665,665,130043,13,"Northwest Territories",13,"NWT",4,"Taiga Plains",25,"WRIGLEY","dont know",50,161,"Managed Forest",735282.325169,11282843514.1
+666,666,130044,13,"Northwest Territories",13,"NWT",4,"Taiga Plains",26,"Wood Buffalo National Park of Canada","Wood Buffalo",50,162,"Managed Forest",361336.444107,5728004029.29
+667,667,130046,13,"Northwest Territories",13,"NWT",5,"Taiga Shield West",6,"BufferCommunity50km","50km Community Buffer",51,164,"Managed Forest",3160632.79739,29981681731.6
+668,668,130049,13,"Northwest Territories",13,"NWT",5,"Taiga Shield West",21,"SAHTU","SAHTU",51,167,"Managed Forest",689149.516811,1918193685.53
+669,669,130050,13,"Northwest Territories",13,"NWT",5,"Taiga Shield West",22,"SOUTH SLAVE","SOUTH SLAVE",51,168,"Managed Forest",116043.5472,165648145.14
+670,670,130051,13,"Northwest Territories",13,"NWT",5,"Taiga Shield West",23,"TLICHO","TLICHO",51,169,"Managed Forest",3199872.21092,29076544703.1
