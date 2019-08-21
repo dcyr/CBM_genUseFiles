@@ -33,16 +33,15 @@ inputPathLandis <- paste(home, "Sync/Travail/ECCC/Landis-II/firewood_landis/inpu
 ### script path
 scriptPath <- paste(home, "Sync/Travail/ECCC/CBM/CBMtoLANDIS/scripts", sep = "/")
 
-### fetch CBM spatial unit raster
-spuR <- raster(paste(inputPathGIS, "NIR/spuR.tif", sep = "/"))
-spuR_AT <- read.csv(paste(inputPathGIS, "NIR/spuR_AT.csv", sep = "/"))
+# ### fetch CBM spatial unit raster
+# spuR <- raster(paste(inputPathGIS, "NIR/spuR.tif", sep = "/"))
+# spuR_AT <- read.csv(paste(inputPathGIS, "NIR/spuR_AT.csv", sep = "/"))
+# 
+# ### fetching vegCodes (species cross-model lookup table)
+# inputURL <- "https://raw.githubusercontent.com/dcyr/LANDIS-II_IA_generalUseFiles/master/"
+# vegCodes <- read.csv(text = getURL(paste(inputURL, "vegCodes.csv", sep="/")))
 
-### fetching vegCodes (species cross-model lookup table)
-inputURL <- "https://raw.githubusercontent.com/dcyr/LANDIS-II_IA_generalUseFiles/master/"
-vegCodes <- read.csv(text = getURL(paste(inputURL, "vegCodes.csv", sep="/")))
 
-### sourcing scripts
-source(paste(scriptPath, "CBMtoLANDIS_fnc.R", sep = "/"))
 
 
 
@@ -60,14 +59,62 @@ scenario <- NULL
 species <- landisInputs[grep("species", landisInputs)]
 species <- species[grep(area, species)]
 species <- read.table(paste(inputPathLandis, species, sep = "/"),
-                      header = F, skip = 1, comment.char = ">")
-
-spp <- species[,1]
-
-foo <- sppCodeConvert(spp, inputCode = "LANDIS")
+                      skip = 1, comment.char = ">")
 
 
+# ### sourcing scripts
+source(paste(scriptPath, "CBMtoLANDIS_fnc.R", sep = "/"))
+# sppLANDIS <- species[,1]
+# ### testing the function
+# sppCBM <- sppConvert(spp = sppLANDIS, inputCode = "LANDIS")
+# sppLANDIS <- sppConvert(spp = sppCBM, inputCode = "CBM")
 
 
+#### landtypes
+landtypes <- landisInputs[grep("landtypes", landisInputs)]
+landtypes <- landtypes[grep(area, landtypes)]
+landtypes_AT <- landtypes[grep("txt", landtypes)]
+landtypes_AT <- read.table(paste(inputPathLandis, landtypes_AT, sep = "/"),
+                                 skip = 1, comment.char = ">")
+landtypes <- landtypes[grep("tif", landtypes)]
+landtypes <- raster(paste(inputPathLandis, landtypes, sep = "/"))
 
+landtypeNames <- landtypes_AT[which(landtypes_AT$V1 == "yes"), "V3"]
+
+foo <- fetchSPU_fnc(landtypes, landtypes_AT)
+plot(landtypes)
 species <- read.csv()
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
