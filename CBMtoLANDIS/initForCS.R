@@ -29,7 +29,7 @@ require(RCurl)
 inputPathGIS <- paste(home, "Sync/Travail/ECCC/GIS", sep = "/")
 inputPathAIDB <- paste(home, "Sync/Travail/ECCC/CBM/AIDB", sep = "/")
 ### input path (LANDIS)
-inputPathLandis <- paste(home, "Sync/Travail/ECCC/Landis-II/firewood_landis/inputs", sep = "/")
+inputPathLandis <- paste(home, "Sync/Travail/ECCC/Landis-II/Montmorency-Hereford/inputsLandis", sep = "/")
 ### script path
 scriptPath <- paste(home, "Sync/Travail/ECCC/CBM/CBMtoLANDIS/scripts", sep = "/")
 
@@ -49,7 +49,7 @@ scriptPath <- paste(home, "Sync/Travail/ECCC/CBM/CBMtoLANDIS/scripts", sep = "/"
 ################################################################################
 landisInputs <- list.files(inputPathLandis)
 ### experiment specifics
-area <- "MRCCentre"
+area <- "ForMont"
 scenario <- NULL
 
 # might want to create loops here, or a function
@@ -81,19 +81,39 @@ landtypes <- raster(paste(inputPathLandis, landtypes, sep = "/"))
 
 landtypeNames <- landtypes_AT[which(landtypes_AT$V1 == "yes"), "V3"]
 
-foo <- fetchSPU_fnc(landtypes, landtypes_AT)
+
+
+spu <- fetchSPU_fnc(landtypes, landtypes_AT)
 plot(landtypes)
-species <- read.csv()
+#species <- read.csv()
+#spp <- species$V1
+
+
+# lightEstablismentTable_fnc <- function(update = F, template, ## placeholder at this point... 
+#                                        LightEstablishmentTable = NULL) {
+#     
+#     
+# } 
+
+template <- "C:/Users/cyrdo/Sync/Travail/ECCC/CBM/CBMtoLANDIS/templates/CFORC-succession.txt"
+tableNames <- c("SpeciesParameters", "DOMPools")
+
+
+
+
+x <- "biomass-succession-main-inputs_ForMont_baseline"
 
 
 
 
 
+bsMainInput <- "C:/Users/cyrdo/Sync/Travail/ECCC/Landis-II/Montmorency-Hereford/inputsLandis/biomass-succession-main-inputs_ForMont_baseline.txt"
+bsDynInput <-  "C:/Users/cyrdo/Sync/Travail/ECCC/Landis-II/Montmorency-Hereford/inputsLandis/biomass-succession-dynamic-inputs_ForMont_baseline_BiasCorrected.txt"
+forCSInput <- "C:/Users/cyrdo/Sync/Travail/ECCC/CBM/CBMtoLANDIS/templates/CFORC-succession.txt"
 
 
-
-
-
+landisInputFetch(bsMainInput, type = "BiomassSuccession")
+landisInputFetch(forCSInput, type = "ForCS")
 
 
 
