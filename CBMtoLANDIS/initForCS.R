@@ -95,13 +95,13 @@ plot(landtypes)
 #     
 # } 
 
-template <- "C:/Users/cyrdo/Sync/Travail/ECCC/CBM/CBMtoLANDIS/templates/CFORC-succession.txt"
-tableNames <- c("SpeciesParameters", "DOMPools")
-
-
-
-
-x <- "biomass-succession-main-inputs_ForMont_baseline"
+# template <- "C:/Users/cyrdo/Sync/Travail/ECCC/CBM/CBMtoLANDIS/templates/CFORC-succession.txt"
+# tableNames <- c("SpeciesParameters", "DOMPools")
+# 
+# 
+# 
+# 
+# x <- "biomass-succession-main-inputs_ForMont_baseline"
 
 
 
@@ -112,7 +112,8 @@ bsDynInput <-  "C:/Users/cyrdo/Sync/Travail/ECCC/Landis-II/Montmorency-Hereford/
 forCSInput <- "C:/Users/cyrdo/Sync/Travail/ECCC/CBM/CBMtoLANDIS/templates/CFORC-succession.txt"
 
 
-landisInputFetch(bsMainInput, type = "BiomassSuccession")
+landisInputFetch(bsMainInput, type = "BSMain")
+landisInputFetch(bsDynInput, type = "BSDynamics")
 landisInputFetch(forCSInput, type = "ForCS")
 
 
@@ -123,7 +124,60 @@ landisInputFetch(forCSInput, type = "ForCS")
 
 
 
+###################### a wrapper that uses several of the functions above to create a formatted input file
+#### for Forest Carbon Succession from Biomass Succession input files and CBM Archive Index Database (AIDB)
 
+ForCS_update <- function(template, ### a formatted Forest Carbon Succession input file
+                         bsMainInput,  ### Biomass succession main inputs
+                         bsDynInput, ### Biomass succession dynamic inputs
+                         valuesSingleAll = c("Timestep", "SeedingAlgorithm", "ForCSClimateFile",
+                                             "InitialCommunities", "InitialCommunitiesMap"),
+                         tablesAll = c("ForCSOutput", "SoilSpinUp", "AvailableLightBiomass",
+                                       "LightEstablishmentTable", "SpeciesParameters",
+                                       "DOMPools", "EcoSppDOMParameters", "ForCSProportions",
+                                       "DisturbFireTransferDOM", "DisturbOtherTransferDOM",
+                                       "DisturbFireTransferBiomass", "DisturbOtherTransferBiomass",
+                                       "ANPPTimeSeries", "MaxBiomassTimeSeries",
+                                       "EstablishProbabilities", "RootDynamics",
+                                       "SnagData"),
+                         ...) {### other arguments may be required for some functions
+    
+    ### fetching source formatted Landis Biomass Succession inputs
+    bsMain <- mainInputFetch(bsMainInput)
+    dynInput <- dynamicInputFetch(bsDynInput)
+    
+    ### fetching Forest Carbon succession template file
+    x <- readLines(template)
+    
+    
+    ### processing from top to bottom
+    
+    
+    
+    
+    valueHeaderFlags <- grep(paste(valuesSingleAll, collapse = "|"), x)
+    tableHeaderFlags <- grep(paste(tablesAll, collapse = "|"), x)
+    
+    sppConvert
+    fetchSPU_fnc
+    
+    for (i in seq_along(tableNames)) {
+        tName <-  tableNames[i]
+        index <- which(tablesAll == tName)
+        index <- tableHeaderFlags[index] : (tableHeaderFlags[index + 1]-1)
+        
+        content <- x[index]
+        tableHeader <-  content[tableHeaderExtract(content)]
+        newTable
+        
+        
+        
+        
+        
+    }
+    
+    
+}
 
 
 
