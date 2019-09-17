@@ -116,7 +116,7 @@ initForCS <- function(forCSInput, ### a formatted Forest Carbon Succession input
        
         forCS$EcoSppDOMParameters$table[,5] <- 0
     } else {
-        tmp <- read.csv(paste0(inputPathLandis, "/DOM-initPools_", area, ".csv"))
+        tmp <- read.csv(paste0(inputPathLandis, "/DOM-initPools_", a, ".csv"))
         
         # merging in new data
         tmp  <- forCS$EcoSppDOMParameters$table %>%
@@ -266,6 +266,7 @@ initForCS <- function(forCSInput, ### a formatted Forest Carbon Succession input
     maxBRounded <- ceiling(max(bsDyn$maxB)/step)*step
     breaks <- seq(0, maxBRounded, step) ### max values will be eliminated through the process
     
+    
     forCS$RootDynamics$table <- rootBiomassParamsFetch(spp, landtypes_AT,
                                                        aidbURL = aidbURL,
                                                        breaks)
@@ -288,7 +289,7 @@ initForCS <- function(forCSInput, ### a formatted Forest Carbon Succession input
 
     ############################################################################
     #### Writing ForCS parameters to file
-    file <- "forCS-input.txt"
+    file <- paste0("forCS-input_", a, "_", s, ".txt")
     print(paste0("Writing updated ForCS inputs to file '", file, "'"))
     forCS_writeToFile(x = forCS, file)
     print("Done!")
@@ -296,7 +297,7 @@ initForCS <- function(forCSInput, ### a formatted Forest Carbon Succession input
     ############################################################################
     #### producing forCS climate input file
     if(climate) {
-        file <- forCS$ForCSClimateFile
+        file <- paste0("forCS-climate_", a, "_", scenario, ".txt")#forCS$ForCSClimateFile
         print(paste0("Producing forCS climate inputs and writing to file '", file, "'"))
         tMean_fetch(landtypes, landtypes_AT,
                     writeToFile = file,

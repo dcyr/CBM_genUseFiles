@@ -760,6 +760,10 @@ rootBiomassParamsFetch <- function(spp, landtypes_AT, breaks,
     }
     
     
+    ### limiting the number of breaks to 6 (including zero)
+    index <- which(breaks>10000)
+    breaks <- c(breaks[-index], breaks[max(index)])
+    
     #### midpoints
     mid <- breaks[-length(breaks)]+diff(breaks)/2
     mid <- cbind(breaks[-length(breaks)], mid)
