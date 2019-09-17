@@ -2,20 +2,22 @@
 ###################### a wrapper that uses several of the functions above to create a formatted input file
 #### for Forest Carbon Succession from Biomass Succession input files and CBM Archive Index Database (AIDB)
 initForCS <- function(forCSInput, ### a formatted Forest Carbon Succession input file
-                       bsMainInput,  ### Biomass succession main inputs
-                       bsDynInput, ### Biomass succession dynamic inputs
-                       landtypes,
-                       landtypes_AT,
-                       valuesSingleAll = c("Timestep", "SeedingAlgorithm", "ForCSClimateFile",
-                                           "InitialCommunities", "InitialCommunitiesMap"),
-                       tablesAll = c("ForCSOutput", "SoilSpinUp", "AvailableLightBiomass",
-                                     "LightEstablishmentTable", "SpeciesParameters",
-                                     "DOMPools", "EcoSppDOMParameters", "ForCSProportions",
-                                     "DisturbFireTransferDOM", "DisturbOtherTransferDOM",
-                                     "DisturbFireTransferBiomass", "DisturbOtherTransferBiomass",
-                                     "ANPPTimeSeries", "MaxBiomassTimeSeries",
-                                     "EstablishProbabilities", "RootDynamics",
-                                     "SnagData"), ...) {### other arguments may be required for some functions
+                      bsMainInput,  ### Biomass succession main inputs
+                      bsDynInput, ### Biomass succession dynamic inputs
+                      landtypes,
+                      landtypes_AT,
+                      climate = F,
+                      spinup = F,
+                      valuesSingleAll = c("Timestep", "SeedingAlgorithm", "ForCSClimateFile",
+                                          "InitialCommunities", "InitialCommunitiesMap"),
+                      tablesAll = c("ForCSOutput", "SoilSpinUp", "AvailableLightBiomass",
+                                    "LightEstablishmentTable", "arameters",
+                                    "DOMPools", "EcoSppDOMParameters", "ForCSProportions",
+                                    "DisturbFireTransferDOM", "DisturbOtherTransferDOM",
+                                    "DisturbFireTransferBiomass", "DisturbOtherTransferBiomass",
+                                    "ANPPTimeSeries", "MaxBiomassTimeSeries",
+                                    "EstablishProbabilities", "RootDynamics",
+                                    "SnagData"), ...) {### other arguments may be required for some functions
     
     print("Fetching Landis inputs and templates...")
     ### fetching source formatted Landis Biomass Succession inputs
@@ -29,8 +31,11 @@ initForCS <- function(forCSInput, ### a formatted Forest Carbon Succession input
     
     ### preparing species' list and spatial units
     print("Preparing species' list and spatial units...")
-    spp <- sppConvert(bsMain$SpeciesParameters$table[,1], inputCode = "LANDIS")
-    spu <- spuFetch(landtypes, landtypes_AT)
+    spp <- sppConvert(bsMain$SpeciesParameters$table[,1],
+                      inputCode = "LANDIS", aidbURL = aidbURL)
+    spu <- spuFetch(landtypes, landtypes_AT,
+                    aidbURL = aidbURL,
+                    spuURL = spuURL)
     print("Done!")
     
 
@@ -61,7 +66,8 @@ initForCS <- function(forCSInput, ### a formatted Forest Carbon Succession input
     ############################################################################
     ### updating SpeciesParameters (different parameters)
     print("Preparing / updating 'SpeciesParameters'")
-    forCS$SpeciesParameters$table <- SpeciesParameterFetch(bsMain)
+    forCS$SpeciesParameters$table <- SpeciesParameterFetch(bsMain,
+                                                           aidbURL = aidbURL)
     
     ## minimum age for merchantable stems
     # (should be revised - using Romain's values for now,
@@ -95,7 +101,7 @@ initForCS <- function(forCSInput, ### a formatted Forest Carbon Succession input
     ############################################################################
     ### Dompools - "Proportion of the decayed material that goes to the atmosphere'
     print("Preparing / updating 'Dompools'")
-    forCS$DOMPools$table[,3] <- DomFetch()$PropToAtmosphere
+    forCS$DOMPools$table[,3] <- DomFetch(aidbURL = aidbURL)$PropToAtmosphere
     print("Done!")
     
     ############################################################################
@@ -103,14 +109,34 @@ initForCS <- function(forCSInput, ### a formatted Forest Carbon Succession input
     print("Preparing / updating 'EcoSppDOMParameters'")
     forCS$EcoSppDOMParameters$table <- EcoSppDOMParametersFetch(sppNames = names(spp),
                                                                 landtypeNames = lt)
+    
     # for soil spin-up
     forCS$EcoSppDOMParameters$table[,5] <- 0
+    if(spinup) {
+       
+        forCS$EcoSppDOMParameters$table[,5] <- 0
+    } else {
+        tmp <- read.csv(paste0(inputPathLandis, "/DOM-initPools_", area, ".csv"))
+        
+        # merging in new data
+        tmp  <- forCS$EcoSppDOMParameters$table %>%
+            merge(tmp, by = c("landtype", "spp", "poolID"),
+                  all.y = T) %>%
+            arrange(spp, landtype, poolID) %>%
+            mutate(amountAtT0 = amountAtT0.y) %>%
+            select(landtype, spp, poolID,
+                   OrganicMatterDecayRate,
+                   amountAtT0, Q10)
+   
+        forCS$EcoSppDOMParameters$table <- tmp
+    }
     print("Done!")
     
     ############################################################################
     ### ForCSProportions
     print("Preparing / updating 'ForCSProportions'")
-    forCS$ForCSProportions$table <- ForCSProprotionsFetch(landtypes, landtypes_AT)
+    forCS$ForCSProportions$table <- ForCSProprotionsFetch(landtypes, landtypes_AT,
+                                                          aidbURL = aidbURL)
     forCS$ForCSProportions$table[,1:2] <- 0.5  ### I couldn't find those values in AIDB
     ### so they are hard coded at this moment.
     print("Done!")
@@ -120,6 +146,7 @@ initForCS <- function(forCSInput, ### a formatted Forest Carbon Succession input
     print("Preparing / updating Disturbance matrices - 'DisturbFireTransferDOM'")
     ### DisturbFireTransferDOM
     dm <- DMFetch(landtypes,landtypes_AT,
+                  aidbURL = aidbURL,
                   #from = "DOM",
                   forCS_type = "fire")$fromDOM
     for (i in 1:5) {
@@ -137,20 +164,29 @@ initForCS <- function(forCSInput, ### a formatted Forest Carbon Succession input
     ### DisturbOtherTransferDOM
     print("Preparing / updating Disturbance matrices - 'DisturbOtherTransferDOM'")
     dmID <- c(harvest = 135, #"97% clearcut","Sylva CPRS clearcut 97%"
-              wind = 227) #"Uprooting and decay for All Eco Boundaries","Uprooting and decay for All Eco Boundaries"
+              wind = 227, #"Uprooting and decay for All Eco Boundaries","Uprooting and decay for All Eco Boundaries"
+              bda = 427)#, # "DMID 427: Spruce Budworm in QC, Severe annual defoliation, 6yr cumulative defoliation > 85%"
+              #bdaSalv = 25) # "Stand Replacing Matrix #25","Insects followed by Salvage Logging Matrix #1 (Stand Replacing). Traditionally used for all ecozones across Canada."
+    
     
     for (i in seq_along(dmID)) {
         dt <-names(dmID)[i]
-        df <- data.frame(DisturbanceType = dt,
-                         DMFetch(landtypes,landtypes_AT,
-                                 #from = "DOM",
-                                 forCS_type = "other",
-                                 dmID = dmID[i])$fromDOM)
-        if(i == 1) {
-            otherTransferDOM <- df
-        } else {
-            otherTransferDOM <- rbind(otherTransferDOM, df)
+        df <- DMFetch(landtypes,landtypes_AT,
+                      aidbURL = aidbURL,
+                      #from = "DOM",
+                      forCS_type = "other",
+                      dmID = dmID[i])$fromDOM
+        if(nrow(df) > 0) {
+            df <- data.frame(DisturbanceType = dt,
+                             df)
+                        
+            if(i == 1) {
+                otherTransferDOM <- df
+            } else {
+                otherTransferDOM <- rbind(otherTransferDOM, df) 
+            }
         }
+        rm(df)
     }
     forCS$DisturbOtherTransferDOM$table <- otherTransferDOM
     print("Done!")
@@ -158,7 +194,8 @@ initForCS <- function(forCSInput, ### a formatted Forest Carbon Succession input
     ### DisturbFireTransferBiomass
     print("Preparing / updating Disturbance matrices - 'DisturbFireTransferBiomass'")
     dm <- DMFetch(landtypes,landtypes_AT,
-                  forCS_type = "fire")$fromBiomass
+                  forCS_type = "fire",
+                  aidbURL = aidbURL,)$fromBiomass
     # each lines must sum up to 1, else, C will disappear
     dm[,2:4] <- t(apply(dm[,2:4], 1, function(x) round(x/sum(x), 4)))
     
@@ -176,17 +213,14 @@ initForCS <- function(forCSInput, ### a formatted Forest Carbon Succession input
     
     ### DisturbOtherTransferBiomass
     print("Preparing / updating Disturbance matrices - 'DisturbOtherTransferBiomass'")
-    dmID <- c(harvest = 135, #"97% clearcut","Sylva CPRS clearcut 97%"
-              wind = 227, #"Uprooting and decay for All Eco Boundaries","Uprooting and decay for All Eco Boundaries"
-              #bda1 = 427, # "Spruce Budworm in QC, Severe annual defoliation, 6yr cumulative defoliation > 85%"
-              bda2 = 25) # "Stand Replacing Matrix #25","Insects followed by Salvage Logging Matrix #1 (Stand Replacing). Traditionally used for all ecozones across Canada."
-    
+   
     for (i in seq_along(dmID)) {
         dt <-names(dmID)[i]
         df <- data.frame(DisturbanceType = dt,
                          DMFetch(landtypes,landtypes_AT,
                                  #from = "DOM",
                                  forCS_type = "other",
+                                 aidbURL = aidbURL,
                                  dmID = dmID[i])$fromBiomass)
         if(i == 1) {
             otherTransferBiomass <- df
@@ -198,7 +232,7 @@ initForCS <- function(forCSInput, ### a formatted Forest Carbon Succession input
     # each lines must sum up to 1, else, C will disappear
     dm[,3:5] <- t(apply(dm[,3:5], 1, function(x) round(x/sum(x), 4)))
     
-    forCS$DisturbOtherTransferDOM$table <- dm
+    forCS$DisturbOtherTransferBiomass$table <- dm
     print("Done!")
     
     ############################################################################
@@ -208,7 +242,7 @@ initForCS <- function(forCSInput, ### a formatted Forest Carbon Succession input
     print("Preparing / updating 'ANPPTimeSeries'")
     forCS$ANPPTimeSeries$table <- bsDyn[, c("year", "landtype", "species", "maxANPP")]
     # add standard deviation
-    forCS$ANPPTimeSeries$table[,"ANPP-Std"] <- 0
+    forCS$ANPPTimeSeries$table[,"ANPP-Std"] <- 1
     print("Done!")
     
     #### MaxBiomassTimeSeries
@@ -228,11 +262,13 @@ initForCS <- function(forCSInput, ### a formatted Forest Carbon Succession input
     ### some of the parameters are in tblSpeciesTypeDefault, but here I'm using
     ### equations from Li et al. 2003
     print("Preparing / updating 'RootDynamics'")
-    step <- 1000
+    step <- 2500 ### doesn't work with 2000, appears it has to be >= 2500
     maxBRounded <- ceiling(max(bsDyn$maxB)/step)*step
     breaks <- seq(0, maxBRounded, step) ### max values will be eliminated through the process
     
-    forCS$RootDynamics$table <- rootBiomassParamsFetch(spp, landtypes_AT, breaks)
+    forCS$RootDynamics$table <- rootBiomassParamsFetch(spp, landtypes_AT,
+                                                       aidbURL = aidbURL,
+                                                       breaks)
     print("Done!")
     
     ############################################################################
@@ -246,10 +282,9 @@ initForCS <- function(forCSInput, ### a formatted Forest Carbon Succession input
     #### SoilSpinUp
     ## removing SnagData section
     forCS <- soilSpinUp(forCS,
-                        soilSpinUp = T,
+                        soilSpinUp = spinup,
                         tolerance = 1, 
-                        maxIter = 20,
-                        initDom = 0)
+                        maxIter = 20)
 
     ############################################################################
     #### Writing ForCS parameters to file
@@ -260,10 +295,12 @@ initForCS <- function(forCSInput, ### a formatted Forest Carbon Succession input
     
     ############################################################################
     #### producing forCS climate input file
-    file <- forCS$ForCSClimateFile
-    print(paste0("Producing forCS climate inputs and writing to file '", file, "'"))
-    tMean_fetch(landtypes, landtypes_AT,
-                writeToFile = file,
-                outputTable = F)
-    print("Done!")
+    if(climate) {
+        file <- forCS$ForCSClimateFile
+        print(paste0("Producing forCS climate inputs and writing to file '", file, "'"))
+        tMean_fetch(landtypes, landtypes_AT,
+                    writeToFile = file,
+                    outputTable = F)
+        print("Done!") 
+    }
 }

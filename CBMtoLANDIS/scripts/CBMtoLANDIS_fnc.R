@@ -3,10 +3,15 @@
 #### This function takes LANDIS species codes (as defined in "vegCodes.csv"),
 #### and returns CBM specie (as defined in AIDB)
 
+# landisURL = "https://raw.githubusercontent.com/dcyr/LANDIS-II_IA_generalUseFiles/master"
+# aidbURL = "https://raw.githubusercontent.com/dcyr/CBM_genUseFiles/master/AIDB"
+# spuURL = "https://raw.githubusercontent.com/dcyr/CBM_genUseFiles/master/spatial"
+
+
 sppConvert <- function(spp, inputCode, ### where "inputCode" is either "CBM" or "LANDIS"
                            exceptions = NULL, ## currently a placeholder for when it might be preferable to assign another species
                            landisURL = "https://raw.githubusercontent.com/dcyr/LANDIS-II_IA_generalUseFiles/master",
-                           aidbURL = "https://raw.githubusercontent.com/dcyr/CBM_genUseFiles/master/AIDB") {  
+                           aidbURL = aidbURL) {  
     
     ### convert to character if that's not already the case
     spp <- as.character(spp)
@@ -14,8 +19,13 @@ sppConvert <- function(spp, inputCode, ### where "inputCode" is either "CBM" or 
     ### fetching species lookup tables
     vegCodesURL <- paste(landisURL, "vegCodes.csv", sep="/")
     vegCodes <- read.csv(text = getURL(vegCodesURL))  
-    tblSpeciesTypeDefault <- read.csv(text = getURL(paste(aidbURL,
+
+    if(strsplit(aidbURL, "/")[[1]][1] %in% c("https:", "http:")) {
+      tblSpeciesTypeDefault <- read.csv(text = getURL(paste(aidbURL,
                                                   "tblSpeciesTypeDefault.txt", sep="/"))) 
+    } else {
+      tblSpeciesTypeDefault <- read.csv(paste(aidbURL,"tblSpeciesTypeDefault.txt", sep="/")) 
+    }
     ### species names
     sppAIDB <- as.character(tblSpeciesTypeDefault$SpeciesTypeName)
     codeAIDB <-  as.character(tblSpeciesTypeDefault$CanFI_Code)
@@ -87,15 +97,12 @@ sppConvert <- function(spp, inputCode, ### where "inputCode" is either "CBM" or 
 soilSpinUp <- function(forCS, 
                        soilSpinUp = T,
                        tolerance = 1, 
-                       maxIter = 20,
-                       initDom = 0) {
+                       maxIter = 20) {
   
   forCS$SoilSpinUp$table[,1] <- as.numeric(soilSpinUp)
   forCS$SoilSpinUp$table[,2] <- tolerance
   forCS$SoilSpinUp$table[,3] <- maxIter
-  
-  forCS$EcoSppDOMParameters$table[,5] <- initDom
-  
+
   return(forCS)
 }
 
@@ -107,10 +114,10 @@ soilSpinUp <- function(forCS,
 #### spatial units ID (SPUs)
 
 spuFetch <- function(landtypes, landtypes_AT,
-                         onlyActive = T,  ### returns values only for active landtypes
-                         rule = "majority",
-                         aidbURL = "https://raw.githubusercontent.com/dcyr/CBM_genUseFiles/master/AIDB",
-                         spuURL = "https://raw.githubusercontent.com/dcyr/CBM_genUseFiles/master/spatial") { ### just a placeholder at the moment
+                     onlyActive = T,  ### returns values only for active landtypes
+                     rule = "majority",
+                     aidbURL = aidbURL,
+                     spuURL = spuURL) { ### just a placeholder at the moment
     
     
     print("Matching LANDIS landtypes with CBM SPUID")
@@ -124,19 +131,30 @@ spuFetch <- function(landtypes, landtypes_AT,
         ltID <- ltID[isActive]
     }
     
-    ### CBM spu table
-    tblSPUDefault <- read.csv(text = getURL(paste(aidbURL,
-                                                  "tblSPUDefault.txt", sep="/")))
+    if(strsplit(aidbURL, "/")[[1]][1] %in% c("https:", "http:")) {
+      ### CBM spu table
+      tblSPUDefault <- read.csv(text = getURL(paste(aidbURL,
+                                                    "tblSPUDefault.txt", sep="/")))
+    } else {
+      ### CBM spu table
+      tblSPUDefault <- read.csv(paste(aidbURL,
+                                      "tblSPUDefault.txt", sep="/")) 
+    }
     
-    ### spatial unit raster
-    tmpFile <- paste0(tempfile(), ".tif")
-    url <- paste(spuURL, "spuR.tif", sep="/")
-    download.file(url, tmpFile, method="curl")
-    spuR <- raster(tmpFile)
-    ### spatial unit attribute table
-    url <- paste(spuURL, "spuR_AT.csv", sep="/")
-    spuR_AT <- read.csv(text = getURL(url))  
-    
+    if(strsplit(spuURL, "/")[[1]][1] %in% c("https:", "http:")) {
+      ### spatial unit raster
+      tmpFile <- paste0(tempfile(), ".tif")
+      url <- paste(spuURL, "spuR.tif", sep="/")
+      download.file(url, tmpFile, method="curl")
+      spuR <- raster(tmpFile)
+      ### spatial unit attribute table
+      url <- paste(spuURL, "spuR_AT.csv", sep="/")
+      spuR_AT <- read.csv(text = getURL(url))  
+    } else {
+      spuR <- raster(paste(spuURL, "spuR.tif", sep = "/"))
+      spuR_AT <- read.csv(paste(spuURL, "spuR_AT.csv", sep = "/"))  
+    }
+  
     ### matching landtypes with CBM spatial units
     # reproject and crop
     spuR <- projectRaster(spuR, landtypes,  method="ngb")
@@ -377,12 +395,14 @@ landisInputFetch <- function(input, type) { ## 'type' is one of 'BiomassSuccessi
 
 SpeciesParameterFetch <- function(bsMain,
                                   #forCS,
-                                  aidbURL = "https://raw.githubusercontent.com/dcyr/CBM_genUseFiles/master/AIDB") {
+                                  aidbURL = aidbURL) {
     
     require(dplyr)
     
     bsInputs <- bsMain$SpeciesParameters$table
-    spp <- sppConvert(bsMain$SpeciesParameters$table[,1], inputCode = "LANDIS")
+    spp <- sppConvert(bsMain$SpeciesParameters$table[,1],
+                      inputCode = "LANDIS",
+                      aidbURL = aidbURL)
     
     ### Species, Leaf longevity, and mortality/growth shape parameters
     out <- bsInputs[,c(1,2,4)]
@@ -395,17 +415,27 @@ SpeciesParameterFetch <- function(bsMain,
     ### merchantable min age, + Merch Curve shape params a and b
     out[,4:6] <- NA 
     
-    ### Proportion of Non-merch to FastAG - BranchesToBranchSnag
-    ### + sppID BranchesToBranchSnag
-    bioNonMerchSpeciesURL <- paste(aidbURL, "tblSpeciesTypeDefault.txt", sep="/")
-    bioNonMerchSpecies <- read.csv(text = getURL(bioNonMerchSpeciesURL))
+    
+    url <- paste(aidbURL, "tblSpeciesTypeDefault.txt", sep="/")
+    if(strsplit(url, "/")[[1]][1] %in% c("https:", "http:")) {
+      ### Proportion of Non-merch to FastAG - BranchesToBranchSnag
+      ### + sppID BranchesToBranchSnag
+      
+      bioNonMerchSpecies <- read.csv(text = getURL(url))
+      
+    } else {
+      ### Proportion of Non-merch to FastAG - BranchesToBranchSnag
+      ### + sppID BranchesToBranchSnag
+      bioNonMerchSpecies <- read.csv(url)
+    }
+    
     index <- match(spp, bioNonMerchSpecies$SpeciesTypeName)
     ### BranchesToBranchSnag
     out[,7]  <- bioNonMerchSpecies[index, "BranchesToBranchSnag"]
     sppID <- bioNonMerchSpecies[index,"SpeciesTypeID"]
     
-    ### growth shape param (to be tested)
-    out[,8] <- bsInputs[,5]
+    # ### growth shape param (to be tested)
+    # out[,8] <- bsInputs[,5]
     
     return(out)
 }
@@ -416,9 +446,15 @@ SpeciesParameterFetch <- function(bsMain,
 ################################################################################
 ### Dompools - "Proportion of the decayed material that goes to the atmosphere'
 
-DomFetch <- function(aidbURL = "https://raw.githubusercontent.com/dcyr/CBM_genUseFiles/master/AIDB") {
-    domPoolsURL <- paste(aidbURL, "tblDOMParametersDefault.txt", sep="/")
-    df <- read.csv(text = getURL(domPoolsURL))
+DomFetch <- function(aidbURL = aidbURL) {
+    
+    url <- paste(aidbURL, "tblDOMParametersDefault.txt", sep="/")
+    if(strsplit(url, "/")[[1]][1] %in% c("https:", "http:")) {
+        df <- read.csv(text = getURL(url))
+    } else {
+        df <- read.csv(url)
+    }
+    
     index <- 1:10
     PropToAtmosphere <- df[index, "PropToAtmosphere"]
     OrganicMatterDecayRate <- df[index, "OrganicMatterDecayRate"]
@@ -440,7 +476,7 @@ DomFetch <- function(aidbURL = "https://raw.githubusercontent.com/dcyr/CBM_genUs
 ### Initial stocks still has to be set
 
 EcoSppDOMParametersFetch <- function(sppNames, landtypeNames) {
-    df <- as.data.frame(do.call("cbind", DomFetch()))
+    df <- as.data.frame(do.call("cbind", DomFetch(aidbURL = aidbURL)))
     df[,"poolID"] <- rownames(df)
     df <- expand.grid(spp = sppNames,
                       landtype = landtypeNames,
@@ -461,19 +497,33 @@ EcoSppDOMParametersFetch <- function(sppNames, landtypeNames) {
 
 ForCSProprotionsFetch <- function(landtypes,
                                   landtypes_AT,
-                                  aidbURL = "https://raw.githubusercontent.com/dcyr/CBM_genUseFiles/master/AIDB") {
+                                  aidbURL = aidbURL) {
     require(dplyr)
-    spu <- unique(spuFetch(landtypes, landtypes_AT))
+    spu <- unique(spuFetch(landtypes, landtypes_AT,
+                           aidbURL = aidbURL,
+                           spuURL = spuURL))
     
     ### CBM spu and ecozone tables
-    tblEcoBoundaryDefault <- read.csv(text = getURL(paste(aidbURL,
+    if(strsplit(aidbURL, "/")[[1]][1] %in% c("https:", "http:")) {
+        tblEcoBoundaryDefault <- read.csv(text = getURL(paste(aidbURL,
                                                           "tblEcoBoundaryDefault.txt", sep="/")))
-    tblSPUDefault <- read.csv(text = getURL(paste(aidbURL,
-                                                  "tblSPUDefault.txt", sep="/")))
-    tblSpeciesTypeDefault <- read.csv(text = getURL(paste(aidbURL,
-                                                          "tblSpeciesTypeDefault.txt", sep="/"))) 
-    tblSlowAGtoBGTransferRate <- read.csv(text = getURL(paste(aidbURL,
-                                                              "tblSlowAGtoBGTransferRate.txt", sep="/"))) 
+        tblSPUDefault <- read.csv(text = getURL(paste(aidbURL,
+                                                      "tblSPUDefault.txt", sep="/")))
+        tblSpeciesTypeDefault <- read.csv(text = getURL(paste(aidbURL,
+                                                              "tblSpeciesTypeDefault.txt", sep="/"))) 
+        tblSlowAGtoBGTransferRate <- read.csv(text = getURL(paste(aidbURL,
+                                                                  "tblSlowAGtoBGTransferRate.txt", sep="/"))) 
+    } else {
+        tblEcoBoundaryDefault <- read.csv(paste(aidbURL,
+                                                "tblEcoBoundaryDefault.txt", sep="/"))
+        tblSPUDefault <- read.csv(paste(aidbURL,
+                                        "tblSPUDefault.txt", sep="/"))
+        tblSpeciesTypeDefault <- read.csv(paste(aidbURL,
+                                                "tblSpeciesTypeDefault.txt", sep="/")) 
+        tblSlowAGtoBGTransferRate <- read.csv(paste(aidbURL,
+                                                    "tblSlowAGtoBGTransferRate.txt", sep="/")) 
+    }
+    
     
     spuIndex <- which(tblSPUDefault$SPUID == spu)
     ecoID <- tblSPUDefault[11,"EcoBoundaryID"]
@@ -498,7 +548,7 @@ ForCSProprotionsFetch <- function(landtypes,
 
 DMFetch <- function(landtypes,
                     landtypes_AT,
-                    aidbURL = "https://raw.githubusercontent.com/dcyr/CBM_genUseFiles/master/AIDB",
+                    aidbURL = aidbURL,
                     #from, # either 'biomass' or 'DOM'
                     forCS_type, # can be NULL, "fire", "other"
                     dmID = NULL)  {  ## if NULL, fetches default disturbance matrix (generally a the 'fire' one)
@@ -507,26 +557,45 @@ DMFetch <- function(landtypes,
 
 
     if(is.null(dmID)) {
-        spu <- unique(spuFetch(landtypes, landtypes_AT))
-        tblDMAssociationSPUDefault <- read.csv(text = getURL(paste(aidbURL,
+        spu <- unique(spuFetch(landtypes, landtypes_AT,
+                               aidbURL = aidbURL,
+                               spuURL = spuURL))
+        if(strsplit(aidbURL, "/")[[1]][1] %in% c("https:", "http:")) {
+            tblDMAssociationSPUDefault <- read.csv(text = getURL(paste(aidbURL,
                                                                    "tblDMAssociationSPUDefault.txt", sep="/")))
+        } else {
+            tblDMAssociationSPUDefault <- read.csv(paste(aidbURL,
+                                                         "tblDMAssociationSPUDefault.txt", sep="/"))
+        }
         df <- tblDMAssociationSPUDefault %>%
             filter(SPUID == spu)
 
         dmID <- df$DMID
     }
 
-    tblDMValuesLookup <- read.csv(text = getURL(paste(aidbURL,
-                                                      "tblDMValuesLookup.txt", sep="/")))
+    if(strsplit(aidbURL, "/")[[1]][1] %in% c("https:", "http:")) {
+        tblDMValuesLookup <- read.csv(text = getURL(paste(aidbURL,
+                                                          "tblDMValuesLookup.txt", sep="/")))
+        tblSourceName <-  read.csv(text = getURL(paste(aidbURL,
+                                                       "tblSourceName.txt", sep="/")))
+        
+        tblSinkName <-  read.csv(text = getURL(paste(aidbURL,
+                                                     "tblSinkName.txt", sep="/")))
+    } else {
+        tblDMValuesLookup <- read.csv(paste(aidbURL,
+                                            "tblDMValuesLookup.txt", sep="/"))
+        tblSourceName <-  read.csv(paste(aidbURL,
+                                         "tblSourceName.txt", sep="/"))
+        
+        tblSinkName <-  read.csv(paste(aidbURL,
+                                       "tblSinkName.txt", sep="/"))
+    }
+   
     dm <- tblDMValuesLookup %>%
         filter(DMID == dmID)
 
 
-    tblSourceName <-  read.csv(text = getURL(paste(aidbURL,
-                                                   "tblSourceName.txt", sep="/")))
-
-    tblSinkName <-  read.csv(text = getURL(paste(aidbURL,
-                                                   "tblSinkName.txt", sep="/")))
+   
     tblSourceName <- filter(tblSourceName,
                             DMStructureID == 2)
     tblSinkName <- filter(tblSinkName,
@@ -673,7 +742,7 @@ DMFetch <- function(landtypes,
 ### Fetching allometric parameters for belowground biomass and fine & coarse root turnover
 
 rootBiomassParamsFetch <- function(spp, landtypes_AT, breaks,
-                                   aidbURL = "https://raw.githubusercontent.com/dcyr/CBM_genUseFiles/master/AIDB",
+                                   aidbURL = aidbURL,
                                    landisURL = "https://raw.githubusercontent.com/dcyr/LANDIS-II_IA_generalUseFiles/master") {  ### estimates from Li et al 2003
     
     
@@ -681,8 +750,15 @@ rootBiomassParamsFetch <- function(spp, landtypes_AT, breaks,
     #### fetching species types
     vegCodesURL <- paste(landisURL, "vegCodes.csv", sep="/")
     vegCodes <- read.csv(text = getURL(vegCodesURL))  
-    tblSpeciesTypeDefault <- read.csv(text = getURL(paste(aidbURL,
-                                                          "tblSpeciesTypeDefault.txt", sep="/")))
+    if(strsplit(aidbURL, "/")[[1]][1] %in% c("https:", "http:")) {
+        
+        tblSpeciesTypeDefault <- read.csv(text = getURL(paste(aidbURL,
+                                                              "tblSpeciesTypeDefault.txt", sep="/")))
+    } else {
+        tblSpeciesTypeDefault <- read.csv(paste(aidbURL,
+                                                "tblSpeciesTypeDefault.txt", sep="/"))
+    }
+    
     
     #### midpoints
     mid <- breaks[-length(breaks)]+diff(breaks)/2
@@ -799,7 +875,8 @@ forCS_writeToFile <- function(x, file) {
                     append = T,
                     row.names = ifelse(sName %in% c("AvailableLightBiomass"),
                                        T, F),
-                    col.names = F,
+                    col.names = ifelse(sName %in% c("AvailableLightBiomass"),
+                                      T, F),
                     sep = "\t",
                     quote = ifelse(sName %in% "DOMPools", T, F),
                     #eol = "\r\n" #will produce Windows' line endings on a Unix-alike OS
